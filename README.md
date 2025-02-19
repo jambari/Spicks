@@ -1,7 +1,6 @@
 # Spicks
 
-![Spicks Visualization](static/images/spicks_logo.png)
-
+<img src="static/images/sample.png" alt="Spicks Visualization" width="100">
 
 Spicks, an abbreviation for Station Picks is an action plan project for Global Seismology Observation Course (Seminar Course Participant) developed by Akhadi-san and Jambari-san.
 
