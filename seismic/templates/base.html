@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Station Registry{% endblock %}</title>
+    {% block map_style %}{% endblock %}
+    <link rel="stylesheet" href="{% static 'css/chota.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/leaflet.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="nav-left">
+          <a class="brand" href="/"> <img src="{% static 'images/logo_spicks.png' %}" alt="" height="" width="" > </a>
+          <div class="tabs">
+            <a class="active" href="/" >Home</a>
+            <a class="" href="" >Station Registry</a>
+            <a class="">PSD</a>
+            <a class="">Filtering</a>
+          </div>
+        </div>
+        <div class="nav-right">
+          <a class="button outline">About</a>
+        </div>
+    </nav>
+
+    <main>
+        {% block content %}
+        <!-- This is where the child templates will insert their content -->
+        {% endblock %}
+    </main>
+
+    <footer class="is-fixed">
+        <div class="row">
+            <div class="col-12">
+                <p class="text-center" >&copy; 2025 Cipirit Corp</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    {% block extra_scripts %}{% endblock %}
+</body>
+</html>

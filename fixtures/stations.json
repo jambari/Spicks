@@ -1,0 +1,6580 @@
+[
+    {
+        "model": "seismic.station",
+        "pk": 1,
+        "fields": {
+            "code": "AAFM",
+            "network": "IA",
+            "name": "AlorSelatan",
+            "latitude": "-8.2734",
+            "longitude": "124.7237",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 2,
+        "fields": {
+            "code": "AAI",
+            "network": "IA",
+            "name": "Ambon",
+            "latitude": "-3.6871",
+            "longitude": "128.1943",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 3,
+        "fields": {
+            "code": "AAII",
+            "network": "IA",
+            "name": "Ambon",
+            "latitude": "-3.6871",
+            "longitude": "128.194",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 4,
+        "fields": {
+            "code": "ABJI",
+            "network": "IA",
+            "name": "AsemBagus",
+            "latitude": "-7.7956",
+            "longitude": "114.234",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 5,
+        "fields": {
+            "code": "ABSM",
+            "network": "IA",
+            "name": "Argamakmur",
+            "latitude": "-3.4254",
+            "longitude": "102.262",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 6,
+        "fields": {
+            "code": "ACBM",
+            "network": "IA",
+            "name": "Ayyu",
+            "latitude": "-7.029754",
+            "longitude": "107.682833",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 7,
+        "fields": {
+            "code": "ACJM",
+            "network": "IA",
+            "name": "Astanajapura",
+            "latitude": "-6.8033",
+            "longitude": "108.6151",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 8,
+        "fields": {
+            "code": "ALKI",
+            "network": "IA",
+            "name": "Alor",
+            "latitude": "-8.1445",
+            "longitude": "124.5903",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 9,
+        "fields": {
+            "code": "ALTI",
+            "network": "IA",
+            "name": "AlorTimur",
+            "latitude": "-8.2904",
+            "longitude": "125.1262",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 10,
+        "fields": {
+            "code": "AMPM",
+            "network": "IA",
+            "name": "Aifat",
+            "latitude": "-1.2675",
+            "longitude": "132.4918",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 11,
+        "fields": {
+            "code": "ANAPI",
+            "network": "IA",
+            "name": "Anggi",
+            "latitude": "-1.323",
+            "longitude": "133.912",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 12,
+        "fields": {
+            "code": "APSI",
+            "network": "IA",
+            "name": "Ampana",
+            "latitude": "-0.9108",
+            "longitude": "121.6487",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 13,
+        "fields": {
+            "code": "APSSI",
+            "network": "IA",
+            "name": "Air Periukan",
+            "latitude": "-3.932",
+            "longitude": "102.465",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 14,
+        "fields": {
+            "code": "ARKPI",
+            "network": "IA",
+            "name": "Arso4",
+            "latitude": "-2.783",
+            "longitude": "140.592",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 15,
+        "fields": {
+            "code": "ARMI",
+            "network": "IA",
+            "name": "Aru",
+            "latitude": "-5.7749",
+            "longitude": "134.2190",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 16,
+        "fields": {
+            "code": "ARPI",
+            "network": "IA",
+            "name": "Arso",
+            "latitude": "-2.9014",
+            "longitude": "140.7561",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 17,
+        "fields": {
+            "code": "ARSKI",
+            "network": "IA",
+            "name": "Arjasa",
+            "latitude": "-6.85843",
+            "longitude": "115.286",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 18,
+        "fields": {
+            "code": "ASTTI",
+            "network": "IA",
+            "name": "AmanubanSelatan",
+            "latitude": "-10.068",
+            "longitude": "124.299",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 19,
+        "fields": {
+            "code": "ATKTI",
+            "network": "IA",
+            "name": "AmfoangTimur",
+            "latitude": "-9.425",
+            "longitude": "124.090",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 20,
+        "fields": {
+            "code": "ATNI",
+            "network": "IA",
+            "name": "Atambua",
+            "latitude": "-9.0835",
+            "longitude": "124.8644",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 21,
+        "fields": {
+            "code": "BAJI",
+            "network": "IA",
+            "name": "Socah",
+            "latitude": "-7.09057",
+            "longitude": "112.70853",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 22,
+        "fields": {
+            "code": "BAKI",
+            "network": "IA",
+            "name": "Biak",
+            "latitude": "-1.1915",
+            "longitude": "136.107",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 23,
+        "fields": {
+            "code": "BAPJI",
+            "network": "IA",
+            "name": "Badegan",
+            "latitude": "-7.912",
+            "longitude": "111.305",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 24,
+        "fields": {
+            "code": "BASAI",
+            "network": "IA",
+            "name": "PulauBanyakBarat",
+            "latitude": "2.307",
+            "longitude": "97.407",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 25,
+        "fields": {
+            "code": "BASI",
+            "network": "IA",
+            "name": "Baing",
+            "latitude": "-10.2189",
+            "longitude": "120.5777",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 26,
+        "fields": {
+            "code": "BATI",
+            "network": "IA",
+            "name": "Baumata",
+            "latitude": "-10.2065",
+            "longitude": "123.6633",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 27,
+        "fields": {
+            "code": "BATPI",
+            "network": "IA",
+            "name": "Babo",
+            "latitude": "-2.5427",
+            "longitude": "133.4455",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 28,
+        "fields": {
+            "code": "BBBCM",
+            "network": "IA",
+            "name": "BontoBahari",
+            "latitude": "-5.5772",
+            "longitude": "120.4481",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 29,
+        "fields": {
+            "code": "BBCI",
+            "network": "IA",
+            "name": "Biau",
+            "latitude": "1.15803",
+            "longitude": "121.436",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 30,
+        "fields": {
+            "code": "BBCM",
+            "network": "IA",
+            "name": "Bontocani",
+            "latitude": "-5.0392",
+            "longitude": "120.058",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 31,
+        "fields": {
+            "code": "BBJI",
+            "network": "IA",
+            "name": "Bungbulang",
+            "latitude": "-7.5557",
+            "longitude": "107.815",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 32,
+        "fields": {
+            "code": "BBJM",
+            "network": "IA",
+            "name": "Bubulan",
+            "latitude": "-7.326",
+            "longitude": "111.8099",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 33,
+        "fields": {
+            "code": "BBLSI",
+            "network": "IA",
+            "name": "Banggai-Tengah",
+            "latitude": "-1.637539",
+            "longitude": "123.52168",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 34,
+        "fields": {
+            "code": "BBSI",
+            "network": "IA",
+            "name": "BauBau",
+            "latitude": "-5.4885",
+            "longitude": "122.5695",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 35,
+        "fields": {
+            "code": "BDBI",
+            "network": "IA",
+            "name": "Badung",
+            "latitude": "-8.520029",
+            "longitude": "115.208717",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 36,
+        "fields": {
+            "code": "BDCM",
+            "network": "IA",
+            "name": "BanawaSelatan",
+            "latitude": "-0.873",
+            "longitude": "119.5867",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 37,
+        "fields": {
+            "code": "BDMUI",
+            "network": "IA",
+            "name": "PulauBatangDua",
+            "latitude": "1.322",
+            "longitude": "126.362",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 38,
+        "fields": {
+            "code": "BESI",
+            "network": "IA",
+            "name": "Bukit",
+            "latitude": "4.6355",
+            "longitude": "96.8396",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 39,
+        "fields": {
+            "code": "BESM",
+            "network": "IA",
+            "name": "Beutong",
+            "latitude": "4.2171",
+            "longitude": "96.6557",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 40,
+        "fields": {
+            "code": "BGASI",
+            "network": "IA",
+            "name": "BlangKejeren",
+            "latitude": "3.983",
+            "longitude": "97.315",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 41,
+        "fields": {
+            "code": "BGCI",
+            "network": "IA",
+            "name": "Balantak",
+            "latitude": "-0.8816",
+            "longitude": "123.3911",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 42,
+        "fields": {
+            "code": "BGCM",
+            "network": "IA",
+            "name": "Balaesang",
+            "latitude": "-0.0804",
+            "longitude": "119.858",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 43,
+        "fields": {
+            "code": "BHCM",
+            "network": "IA",
+            "name": "Bahodopi",
+            "latitude": "-2.7965",
+            "longitude": "122.1259",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 44,
+        "fields": {
+            "code": "BKASI",
+            "network": "IA",
+            "name": "GAWBukitKoto",
+            "latitude": "-0.202",
+            "longitude": "100.318",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 45,
+        "fields": {
+            "code": "BKB",
+            "network": "IA",
+            "name": "Balikpapan",
+            "latitude": "-1.1073",
+            "longitude": "116.9048",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 46,
+        "fields": {
+            "code": "BKJI",
+            "network": "IA",
+            "name": "Banjar",
+            "latitude": "-7.3633",
+            "longitude": "108.5322",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 47,
+        "fields": {
+            "code": "BKNI",
+            "network": "IA",
+            "name": "Bangkinang",
+            "latitude": "0.3264",
+            "longitude": "101.0396",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 48,
+        "fields": {
+            "code": "BKSI",
+            "network": "IA",
+            "name": "Bulukumba",
+            "latitude": "-5.3218",
+            "longitude": "120.1224",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 49,
+        "fields": {
+            "code": "BLCM",
+            "network": "IA",
+            "name": "BalaesangTanjung",
+            "latitude": "-0.123",
+            "longitude": "119.687",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 50,
+        "fields": {
+            "code": "BLJI",
+            "network": "IA",
+            "name": "Banyuglugur",
+            "latitude": "-7.7454",
+            "longitude": "113.595",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 51,
+        "fields": {
+            "code": "BLSM",
+            "network": "IA",
+            "name": "BatukuningLakitanUlu",
+            "latitude": "-2.7563",
+            "longitude": "102.156",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 52,
+        "fields": {
+            "code": "BMBNG",
+            "network": "IA",
+            "name": "Ternadi",
+            "latitude": "-6.6634",
+            "longitude": "110.8839",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 53,
+        "fields": {
+            "code": "BMSI",
+            "network": "IA",
+            "name": "Bangko",
+            "latitude": "-2.06641",
+            "longitude": "102.31544",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 54,
+        "fields": {
+            "code": "BNDI",
+            "network": "IA",
+            "name": "Bandaneira",
+            "latitude": "-4.5224",
+            "longitude": "129.9045",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 55,
+        "fields": {
+            "code": "BNSI",
+            "network": "IA",
+            "name": "Bone",
+            "latitude": "-4.4005",
+            "longitude": "120.1065",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 56,
+        "fields": {
+            "code": "BNTI",
+            "network": "IA",
+            "name": "Bajawa",
+            "latitude": "-8.7881",
+            "longitude": "120.9768",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 57,
+        "fields": {
+            "code": "BOJI",
+            "network": "IA",
+            "name": "Sawit",
+            "latitude": "-7.56815",
+            "longitude": "110.68936",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 58,
+        "fields": {
+            "code": "BOSM",
+            "network": "IA",
+            "name": "BandingAgung",
+            "latitude": "-4.8213",
+            "longitude": "104.162",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 59,
+        "fields": {
+            "code": "BPMJM",
+            "network": "IA",
+            "name": "Batumarmar",
+            "latitude": "-6.9505",
+            "longitude": "113.4922",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 60,
+        "fields": {
+            "code": "BPSM",
+            "network": "IA",
+            "name": "Bayang",
+            "latitude": "-1.1894",
+            "longitude": "100.5899",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 61,
+        "fields": {
+            "code": "BSI",
+            "network": "IA",
+            "name": "BandaAceh",
+            "latitude": "5.4964",
+            "longitude": "95.2962",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 62,
+        "fields": {
+            "code": "BSMI",
+            "network": "IA",
+            "name": "Bula",
+            "latitude": "-3.1075",
+            "longitude": "130.4939",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 63,
+        "fields": {
+            "code": "BSSI",
+            "network": "IA",
+            "name": "Benteng",
+            "latitude": "-6.1428",
+            "longitude": "120.4904",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 64,
+        "fields": {
+            "code": "BTCM",
+            "network": "IA",
+            "name": "BungkuTengah",
+            "latitude": "-2.4768",
+            "longitude": "121.9241",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 65,
+        "fields": {
+            "code": "BTJI",
+            "network": "IA",
+            "name": "BumiJawa",
+            "latitude": "-7.1972",
+            "longitude": "109.1641",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 66,
+        "fields": {
+            "code": "BTSPI",
+            "network": "IA",
+            "name": "BonggoTimur",
+            "latitude": "-2.3779",
+            "longitude": "139.7042",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 67,
+        "fields": {
+            "code": "BUBSI",
+            "network": "IA",
+            "name": "Bunta Banggai",
+            "latitude": "-0.855",
+            "longitude": "122.207",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 68,
+        "fields": {
+            "code": "BUJI",
+            "network": "IA",
+            "name": "Buayan",
+            "latitude": "-7.75603",
+            "longitude": "109.46133",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 69,
+        "fields": {
+            "code": "BUKI",
+            "network": "IA",
+            "name": "Berau",
+            "latitude": "1.25163",
+            "longitude": "118.709328",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 70,
+        "fields": {
+            "code": "BUMSI",
+            "network": "IA",
+            "name": "Bungku-Utara",
+            "latitude": "-1.977807",
+            "longitude": "121.3346",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 71,
+        "fields": {
+            "code": "BUSI",
+            "network": "IA",
+            "name": "BandarBaru",
+            "latitude": "5.2445",
+            "longitude": "96.243",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 72,
+        "fields": {
+            "code": "BWJI",
+            "network": "IA",
+            "name": "Bawean",
+            "latitude": "-5.8511",
+            "longitude": "112.6578",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 73,
+        "fields": {
+            "code": "BYJI",
+            "network": "IA",
+            "name": "Banyuwangi",
+            "latitude": "-8.2146",
+            "longitude": "114.3556",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 74,
+        "fields": {
+            "code": "BYLI",
+            "network": "IA",
+            "name": "Bayan",
+            "latitude": "-8.2272",
+            "longitude": "116.4202",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 75,
+        "fields": {
+            "code": "CASI",
+            "network": "IA",
+            "name": "Calang",
+            "latitude": "4.6288",
+            "longitude": "95.576",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 76,
+        "fields": {
+            "code": "CBJI",
+            "network": "IA",
+            "name": "Citeko",
+            "latitude": "-6.6981",
+            "longitude": "106.9349",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 77,
+        "fields": {
+            "code": "CBJM",
+            "network": "IA",
+            "name": "Cipongkor",
+            "latitude": "-6.57",
+            "longitude": "107.2117",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 78,
+        "fields": {
+            "code": "CCJM",
+            "network": "IA",
+            "name": "Campaka",
+            "latitude": "-7.0166",
+            "longitude": "107.1401",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 79,
+        "fields": {
+            "code": "CGJI",
+            "network": "IA",
+            "name": "Cigeulis",
+            "latitude": "-6.6134",
+            "longitude": "105.6929",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 80,
+        "fields": {
+            "code": "CIJI",
+            "network": "IA",
+            "name": "Cipedes",
+            "latitude": "-7.31741",
+            "longitude": "108.19589",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 81,
+        "fields": {
+            "code": "CIJM",
+            "network": "IA",
+            "name": "Cikedung",
+            "latitude": "-6.4926",
+            "longitude": "108.1853",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 82,
+        "fields": {
+            "code": "CIKJI",
+            "network": "IA",
+            "name": "Cibuaya-Karawang",
+            "latitude": "-6.041924",
+            "longitude": "107.347374",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 83,
+        "fields": {
+            "code": "CILJI",
+            "network": "IA",
+            "name": "Cibeber",
+            "latitude": "-6.822",
+            "longitude": "106.316",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 84,
+        "fields": {
+            "code": "CMJI",
+            "network": "IA",
+            "name": "Cimerak",
+            "latitude": "-7.7837",
+            "longitude": "108.4486",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 85,
+        "fields": {
+            "code": "CNJI",
+            "network": "IA",
+            "name": "Cibinong",
+            "latitude": "-7.3091",
+            "longitude": "107.1296",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 86,
+        "fields": {
+            "code": "CSBJI",
+            "network": "IA",
+            "name": "Compreng",
+            "latitude": "-6.404687",
+            "longitude": "107.881737",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 87,
+        "fields": {
+            "code": "CSJI",
+            "network": "IA",
+            "name": "Ciracap",
+            "latitude": "-7.3301",
+            "longitude": "106.52107",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 88,
+        "fields": {
+            "code": "CSJM",
+            "network": "IA",
+            "name": "Congeang",
+            "latitude": "-6.7405",
+            "longitude": "108.0099",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 89,
+        "fields": {
+            "code": "CTJI",
+            "network": "IA",
+            "name": "WadukCacaban",
+            "latitude": "-7.0075",
+            "longitude": "109.1835",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 90,
+        "fields": {
+            "code": "CWJM",
+            "network": "IA",
+            "name": "CikalongWetan",
+            "latitude": "-6.7423",
+            "longitude": "107.4448",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 91,
+        "fields": {
+            "code": "DBJI",
+            "network": "IA",
+            "name": "Dramaga",
+            "latitude": "-6.5542",
+            "longitude": "106.7436",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 92,
+        "fields": {
+            "code": "DBKI",
+            "network": "IA",
+            "name": "DusunSelatan",
+            "latitude": "-1.6792",
+            "longitude": "114.9081",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 93,
+        "fields": {
+            "code": "DBNFM",
+            "network": "IA",
+            "name": "Donggo",
+            "latitude": "-8.424",
+            "longitude": "118.5948",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 94,
+        "fields": {
+            "code": "DDSI",
+            "network": "IA",
+            "name": "DumaiTimur",
+            "latitude": "1.6677",
+            "longitude": "101.4603",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 95,
+        "fields": {
+            "code": "DNP",
+            "network": "IA",
+            "name": "Denpasar",
+            "latitude": "-8.6773",
+            "longitude": "115.2097",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 96,
+        "fields": {
+            "code": "DOCM",
+            "network": "IA",
+            "name": "Donggala",
+            "latitude": "-0.6758",
+            "longitude": "119.7487",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 97,
+        "fields": {
+            "code": "DYPI",
+            "network": "IA",
+            "name": "Dekai",
+            "latitude": "-4.8521",
+            "longitude": "139.4991",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 98,
+        "fields": {
+            "code": "EDFI",
+            "network": "IA",
+            "name": "Ende",
+            "latitude": "-8.7497",
+            "longitude": "121.6903",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 99,
+        "fields": {
+            "code": "EDMPI",
+            "network": "IA",
+            "name": "Edera",
+            "latitude": "-7.175",
+            "longitude": "139.585",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 100,
+        "fields": {
+            "code": "EGSI",
+            "network": "IA",
+            "name": "Enggano",
+            "latitude": "-5.3526",
+            "longitude": "102.2767",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 101,
+        "fields": {
+            "code": "ELMPI",
+            "network": "IA",
+            "name": "Eligobel",
+            "latitude": "-7.489",
+            "longitude": "140.789",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 102,
+        "fields": {
+            "code": "ESNI",
+            "network": "IA",
+            "name": "Empang",
+            "latitude": "-8.7875",
+            "longitude": "117.965843",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 103,
+        "fields": {
+            "code": "FAKI",
+            "network": "IA",
+            "name": "Fakfak",
+            "latitude": "-2.9192",
+            "longitude": "132.265",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 104,
+        "fields": {
+            "code": "FKMPM",
+            "network": "IA",
+            "name": "Kurik",
+            "latitude": "-8.2515",
+            "longitude": "140.2666",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 105,
+        "fields": {
+            "code": "FKSPI",
+            "network": "IA",
+            "name": "Sawiat",
+            "latitude": "-1.1594",
+            "longitude": "132.016",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 106,
+        "fields": {
+            "code": "GARPI",
+            "network": "IA",
+            "name": "PulauGag",
+            "latitude": "-0.43465",
+            "longitude": "129.900",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 107,
+        "fields": {
+            "code": "GBJI",
+            "network": "IA",
+            "name": "Gringsing",
+            "latitude": "-6.9533",
+            "longitude": "109.9762",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 108,
+        "fields": {
+            "code": "GEBBI",
+            "network": "IA",
+            "name": "Gerokgak",
+            "latitude": "-8.164",
+            "longitude": "114.714",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 109,
+        "fields": {
+            "code": "GEJI",
+            "network": "IA",
+            "name": "Gedangan",
+            "latitude": "-8.3469",
+            "longitude": "112.5901",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 110,
+        "fields": {
+            "code": "GENI",
+            "network": "IA",
+            "name": "Genyem",
+            "latitude": "-2.5926",
+            "longitude": "140.1677",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 111,
+        "fields": {
+            "code": "GESM",
+            "network": "IA",
+            "name": "Geumpang",
+            "latitude": "4.8421",
+            "longitude": "96.1278",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 112,
+        "fields": {
+            "code": "GGJM",
+            "network": "IA",
+            "name": "Gabus",
+            "latitude": "-7.171615",
+            "longitude": "111.203525",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 113,
+        "fields": {
+            "code": "GHMI",
+            "network": "IA",
+            "name": "GaneBarat",
+            "latitude": "-0.3563",
+            "longitude": "127.8497",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 114,
+        "fields": {
+            "code": "GKJM",
+            "network": "IA",
+            "name": "Gedangsari",
+            "latitude": "-7.8411",
+            "longitude": "110.5922",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 115,
+        "fields": {
+            "code": "GMJI",
+            "network": "IA",
+            "name": "Gumukmas",
+            "latitude": "-8.2732",
+            "longitude": "113.4441",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 116,
+        "fields": {
+            "code": "GPSM",
+            "network": "IA",
+            "name": "Geumpang",
+            "latitude": "4.869346",
+            "longitude": "96.090423",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 117,
+        "fields": {
+            "code": "GRJI",
+            "network": "IA",
+            "name": "Gresik",
+            "latitude": "-6.9145",
+            "longitude": "112.4793",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 118,
+        "fields": {
+            "code": "GSI",
+            "network": "IA",
+            "name": "Gunungsitoli",
+            "latitude": "1.3036",
+            "longitude": "97.5754",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 119,
+        "fields": {
+            "code": "GTJI",
+            "network": "IA",
+            "name": "Gemawang",
+            "latitude": "-7.1638",
+            "longitude": "110.184",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 120,
+        "fields": {
+            "code": "GTOI",
+            "network": "IA",
+            "name": "Gorontalo",
+            "latitude": "0.7628",
+            "longitude": "122.87",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 121,
+        "fields": {
+            "code": "GTSI",
+            "network": "IA",
+            "name": "GunungToar",
+            "latitude": "-0.5981",
+            "longitude": "101.4887",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 122,
+        "fields": {
+            "code": "GUJM",
+            "network": "IA",
+            "name": "Gubug",
+            "latitude": "-7.054276",
+            "longitude": "110.666353",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 123,
+        "fields": {
+            "code": "HINSI",
+            "network": "IA",
+            "name": "Hibala",
+            "latitude": "-0.540",
+            "longitude": "98.499",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 124,
+        "fields": {
+            "code": "IATSM",
+            "network": "IA",
+            "name": "Idi",
+            "latitude": "4.9241",
+            "longitude": "97.7845",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 125,
+        "fields": {
+            "code": "IBTI",
+            "network": "IA",
+            "name": "IleBoleng",
+            "latitude": "-8.3857",
+            "longitude": "123.2584",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 126,
+        "fields": {
+            "code": "IGBI",
+            "network": "IA",
+            "name": "Ingas",
+            "latitude": "-8.8181",
+            "longitude": "115.1456",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 127,
+        "fields": {
+            "code": "IHMI",
+            "network": "IA",
+            "name": "Ibu",
+            "latitude": "1.5082",
+            "longitude": "127.5555",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 128,
+        "fields": {
+            "code": "IHRSI",
+            "network": "IA",
+            "name": "IndragiriHilir",
+            "latitude": "-0.9652",
+            "longitude": "102.764519",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 129,
+        "fields": {
+            "code": "IWPI",
+            "network": "IA",
+            "name": "Rasiei",
+            "latitude": "-2.7579",
+            "longitude": "134.5163",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 130,
+        "fields": {
+            "code": "JAASI",
+            "network": "IA",
+            "name": "Jeumpa",
+            "latitude": "3.766",
+            "longitude": "96.820",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 131,
+        "fields": {
+            "code": "JAGI",
+            "network": "IA",
+            "name": "Jajag",
+            "latitude": "-8.4703",
+            "longitude": "114.152",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 132,
+        "fields": {
+            "code": "JASI",
+            "network": "IA",
+            "name": "Sangir-BalaiJanggo",
+            "latitude": "-1.41453",
+            "longitude": "101.45838",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 133,
+        "fields": {
+            "code": "JAY",
+            "network": "IA",
+            "name": "Jayapura",
+            "latitude": "-2.5145",
+            "longitude": "140.7043",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 134,
+        "fields": {
+            "code": "JBJI",
+            "network": "IA",
+            "name": "Jasinga",
+            "latitude": "-6.483735",
+            "longitude": "106.4698517",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 135,
+        "fields": {
+            "code": "JBJM",
+            "network": "IA",
+            "name": "Jepon",
+            "latitude": "-6.9729",
+            "longitude": "111.4587",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 136,
+        "fields": {
+            "code": "JCJI",
+            "network": "IA",
+            "name": "Jatiwangi",
+            "latitude": "-6.7344",
+            "longitude": "108.2631",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 137,
+        "fields": {
+            "code": "JHMI",
+            "network": "IA",
+            "name": "Jailolo",
+            "latitude": "1.0756",
+            "longitude": "127.478",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 138,
+        "fields": {
+            "code": "JMSI",
+            "network": "IA",
+            "name": "Jangkat",
+            "latitude": "-2.63715",
+            "longitude": "101.88745",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 139,
+        "fields": {
+            "code": "JPJI",
+            "network": "IA",
+            "name": "Jatiluhur",
+            "latitude": "-6.5306583",
+            "longitude": "107.41757",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 140,
+        "fields": {
+            "code": "JPSI",
+            "network": "IA",
+            "name": "Jurai",
+            "latitude": "-1.34164",
+            "longitude": "100.58645",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 141,
+        "fields": {
+            "code": "JSBFM",
+            "network": "IA",
+            "name": "Jereweh",
+            "latitude": "-8.8717",
+            "longitude": "116.8164",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 142,
+        "fields": {
+            "code": "JTJM",
+            "network": "IA",
+            "name": "Jampang-Tengah",
+            "latitude": "-7.0573",
+            "longitude": "106.8015",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 143,
+        "fields": {
+            "code": "JWJM",
+            "network": "IA",
+            "name": "Juwangi",
+            "latitude": "-7.2062",
+            "longitude": "110.7527",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 144,
+        "fields": {
+            "code": "KABKI",
+            "network": "IA",
+            "name": "Bongan",
+            "latitude": "-0.750684",
+            "longitude": "116.241898",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 145,
+        "fields": {
+            "code": "KAKKI",
+            "network": "IA",
+            "name": "Karangan",
+            "latitude": "1.366887",
+            "longitude": "117.750031",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 146,
+        "fields": {
+            "code": "KARPI",
+            "network": "IA",
+            "name": "Kabare",
+            "latitude": "-0.061",
+            "longitude": "130.991",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 147,
+        "fields": {
+            "code": "KASAI",
+            "network": "IA",
+            "name": "Kota-Baharu",
+            "latitude": "2.491893",
+            "longitude": "97.858239",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 148,
+        "fields": {
+            "code": "KBBI",
+            "network": "IA",
+            "name": "Kintamani",
+            "latitude": "-8.286",
+            "longitude": "115.2547",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 149,
+        "fields": {
+            "code": "KBJM",
+            "network": "IA",
+            "name": "Kunduran",
+            "latitude": "-7.0505",
+            "longitude": "111.2329",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 150,
+        "fields": {
+            "code": "KBKI",
+            "network": "IA",
+            "name": "Kotabaru",
+            "latitude": "-3.2995",
+            "longitude": "116.1668",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 151,
+        "fields": {
+            "code": "KBSSI",
+            "network": "IA",
+            "name": "Kodi Bangedo",
+            "latitude": "-9.593",
+            "longitude": "118.993",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 152,
+        "fields": {
+            "code": "KDI",
+            "network": "IA",
+            "name": "Kendari",
+            "latitude": "-3.9574",
+            "longitude": "122.6193",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 153,
+        "fields": {
+            "code": "KGCM",
+            "network": "IA",
+            "name": "Kwandang",
+            "latitude": "0.5485",
+            "longitude": "123.0099",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 154,
+        "fields": {
+            "code": "KHK",
+            "network": "IA",
+            "name": "Kahang-Kahang",
+            "latitude": "-8.364",
+            "longitude": "115.6096",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 155,
+        "fields": {
+            "code": "KHSSI",
+            "network": "IA",
+            "name": "KatalaHamuLingu",
+            "latitude": "-9.801",
+            "longitude": "119.945",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 156,
+        "fields": {
+            "code": "KIMPI",
+            "network": "IA",
+            "name": "Kimaam",
+            "latitude": "-7.979",
+            "longitude": "138.852",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 157,
+        "fields": {
+            "code": "KJCM",
+            "network": "IA",
+            "name": "Kelara",
+            "latitude": "-5.5664",
+            "longitude": "119.8025",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 158,
+        "fields": {
+            "code": "KKJM",
+            "network": "IA",
+            "name": "Kokap",
+            "latitude": "-7.843384",
+            "longitude": "110.057248",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 159,
+        "fields": {
+            "code": "KKKI",
+            "network": "IA",
+            "name": "Kendawangan",
+            "latitude": "-2.515",
+            "longitude": "110.1956",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 160,
+        "fields": {
+            "code": "KKKKI",
+            "network": "IA",
+            "name": "Katingan-Kuala",
+            "latitude": "-1.871143",
+            "longitude": "113.419801",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 161,
+        "fields": {
+            "code": "KKMI",
+            "network": "IA",
+            "name": "Kei-Kecil",
+            "latitude": "-5.693",
+            "longitude": "132.7179",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 162,
+        "fields": {
+            "code": "KKSI",
+            "network": "IA",
+            "name": "Kolaka",
+            "latitude": "-4.1717",
+            "longitude": "121.6513",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 163,
+        "fields": {
+            "code": "KKTKI",
+            "network": "IA",
+            "name": "Kombeng",
+            "latitude": "1.186094",
+            "longitude": "116.949317",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 164,
+        "fields": {
+            "code": "KLI",
+            "network": "IA",
+            "name": "Kotabumi",
+            "latitude": "-4.8363",
+            "longitude": "104.8705",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 165,
+        "fields": {
+            "code": "KLJI",
+            "network": "IA",
+            "name": "Klakah",
+            "latitude": "-7.99607",
+            "longitude": "113.25175",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 166,
+        "fields": {
+            "code": "KLNI",
+            "network": "IA",
+            "name": "Mataram",
+            "latitude": "-8.4219",
+            "longitude": "116.0949",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 167,
+        "fields": {
+            "code": "KLSI",
+            "network": "IA",
+            "name": "Kotabumi",
+            "latitude": "-4.6871",
+            "longitude": "104.7317",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 168,
+        "fields": {
+            "code": "KLSM",
+            "network": "IA",
+            "name": "Kluet-Utara",
+            "latitude": "3.2211",
+            "longitude": "97.3158",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 169,
+        "fields": {
+            "code": "KMBFM",
+            "network": "IA",
+            "name": "Kuwus",
+            "latitude": "-8.5654",
+            "longitude": "120.3131",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 170,
+        "fields": {
+            "code": "KMMI",
+            "network": "IA",
+            "name": "Kalianget",
+            "latitude": "-7.0412",
+            "longitude": "113.9157",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 171,
+        "fields": {
+            "code": "KMNI",
+            "network": "IA",
+            "name": "Kota-Mataram",
+            "latitude": "-8.620637",
+            "longitude": "116.08918",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 172,
+        "fields": {
+            "code": "KMPI",
+            "network": "IA",
+            "name": "Kaimana",
+            "latitude": "-3.6617",
+            "longitude": "133.7044",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 173,
+        "fields": {
+            "code": "KMSI",
+            "network": "IA",
+            "name": "Kotamubagu",
+            "latitude": "0.5745",
+            "longitude": "123.8907",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 174,
+        "fields": {
+            "code": "KOMFI",
+            "network": "IA",
+            "name": "Komodo",
+            "latitude": "-8.536",
+            "longitude": "119.547",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 175,
+        "fields": {
+            "code": "KORPI",
+            "network": "IA",
+            "name": "Kofiau",
+            "latitude": "-1.158",
+            "longitude": "129.845",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 176,
+        "fields": {
+            "code": "KPJI",
+            "network": "IA",
+            "name": "Karang-Pucung",
+            "latitude": "-7.3332",
+            "longitude": "108.9312",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 177,
+        "fields": {
+            "code": "KPJM",
+            "network": "IA",
+            "name": "Kapas",
+            "latitude": "-7.1883",
+            "longitude": "111.9281",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 178,
+        "fields": {
+            "code": "KRAI",
+            "network": "IA",
+            "name": "Kairatu",
+            "latitude": "-3.3184",
+            "longitude": "128.3947",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 179,
+        "fields": {
+            "code": "KRJI",
+            "network": "IA",
+            "name": "Kerinci",
+            "latitude": "-2.0912",
+            "longitude": "101.4619",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 180,
+        "fields": {
+            "code": "KRSI",
+            "network": "IA",
+            "name": "Karosa",
+            "latitude": "-1.8903",
+            "longitude": "119.5627",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 181,
+        "fields": {
+            "code": "KSI",
+            "network": "IA",
+            "name": "Kepahiang",
+            "latitude": "-3.651",
+            "longitude": "102.5929",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 182,
+        "fields": {
+            "code": "KTMI",
+            "network": "IA",
+            "name": "Kormomolin",
+            "latitude": "-7.66",
+            "longitude": "131.58",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 183,
+        "fields": {
+            "code": "KTTI",
+            "network": "IA",
+            "name": "Kolbano",
+            "latitude": "-10.0369",
+            "longitude": "124.5163",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 184,
+        "fields": {
+            "code": "KUBSI",
+            "network": "IA",
+            "name": "Kulisusu",
+            "latitude": "-4.78121",
+            "longitude": "123.18684",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 185,
+        "fields": {
+            "code": "KUKI",
+            "network": "IA",
+            "name": "Kutai-Barat",
+            "latitude": "-0.084665",
+            "longitude": "115.662491",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 186,
+        "fields": {
+            "code": "KUSI",
+            "network": "IA",
+            "name": "Kluet-Tengah",
+            "latitude": "3.6579",
+            "longitude": "97.374397",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 187,
+        "fields": {
+            "code": "KWJI",
+            "network": "IA",
+            "name": "Kertek",
+            "latitude": "-7.3837",
+            "longitude": "109.9691",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 188,
+        "fields": {
+            "code": "LASI",
+            "network": "IA",
+            "name": "Langsa",
+            "latitude": "4.4573",
+            "longitude": "97.9704",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 189,
+        "fields": {
+            "code": "LBFI",
+            "network": "IA",
+            "name": "Labuhan-Bajo",
+            "latitude": "-8.48",
+            "longitude": "119.8921",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 190,
+        "fields": {
+            "code": "LBNFM",
+            "network": "IA",
+            "name": "Lambu",
+            "latitude": "-8.6018",
+            "longitude": "119.0121",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 191,
+        "fields": {
+            "code": "LBTSI",
+            "network": "IA",
+            "name": "Lintau Buo Utara",
+            "latitude": "-0.475",
+            "longitude": "100.625",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 192,
+        "fields": {
+            "code": "LDSI",
+            "network": "IA",
+            "name": "Sukandebi",
+            "latitude": "2.88948",
+            "longitude": "98.160522",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 193,
+        "fields": {
+            "code": "LEM",
+            "network": "IA",
+            "name": "Lembang",
+            "latitude": "-6.8266",
+            "longitude": "107.6175",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 194,
+        "fields": {
+            "code": "LEMFI",
+            "network": "IA",
+            "name": "Lembor",
+            "latitude": "-8.707",
+            "longitude": "120.172",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 195,
+        "fields": {
+            "code": "LESM",
+            "network": "IA",
+            "name": "Lemong",
+            "latitude": "-4.9616",
+            "longitude": "103.7124",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 196,
+        "fields": {
+            "code": "LHMI",
+            "network": "IA",
+            "name": "Lhokseumawe",
+            "latitude": "5.2286",
+            "longitude": "96.9469",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 197,
+        "fields": {
+            "code": "LHSM",
+            "network": "IA",
+            "name": "Semendo",
+            "latitude": "-4.1779734",
+            "longitude": "103.5742079",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 198,
+        "fields": {
+            "code": "LISM",
+            "network": "IA",
+            "name": "Lingge-Isaq",
+            "latitude": "4.3166",
+            "longitude": "97.1822",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 199,
+        "fields": {
+            "code": "LJPI",
+            "network": "IA",
+            "name": "Lereh",
+            "latitude": "-3.1271",
+            "longitude": "139.945",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 200,
+        "fields": {
+            "code": "LKCI",
+            "network": "IA",
+            "name": "Lasusua",
+            "latitude": "-3.492",
+            "longitude": "120.8858",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 201,
+        "fields": {
+            "code": "LKSM",
+            "network": "IA",
+            "name": "Suliki",
+            "latitude": "0.1847",
+            "longitude": "100.6",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 202,
+        "fields": {
+            "code": "LKUCM",
+            "network": "IA",
+            "name": "Langgikima",
+            "latitude": "-3.302",
+            "longitude": "122.192",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 203,
+        "fields": {
+            "code": "LLSI",
+            "network": "IA",
+            "name": "Lubuk-LinggauBarat",
+            "latitude": "-3.27843",
+            "longitude": "102.9139",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 204,
+        "fields": {
+            "code": "LLSM",
+            "network": "IA",
+            "name": "Limau",
+            "latitude": "-5.60039",
+            "longitude": "104.80943",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 205,
+        "fields": {
+            "code": "LMNI",
+            "network": "IA",
+            "name": "Lembata",
+            "latitude": "-8.23386",
+            "longitude": "123.716",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 206,
+        "fields": {
+            "code": "LMTI",
+            "network": "IA",
+            "name": "Langke-Rembong",
+            "latitude": "-8.6011",
+            "longitude": "120.4771",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 207,
+        "fields": {
+            "code": "LOCM",
+            "network": "IA",
+            "name": "Lore-Tengah",
+            "latitude": "-1.6502",
+            "longitude": "120.1825",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 208,
+        "fields": {
+            "code": "LOMSI",
+            "network": "IA",
+            "name": "Lohia",
+            "latitude": "-4.91095",
+            "longitude": "122.74157",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 209,
+        "fields": {
+            "code": "LPCM",
+            "network": "IA",
+            "name": "Lembang",
+            "latitude": "-3.501",
+            "longitude": "119.72",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 210,
+        "fields": {
+            "code": "LPSM",
+            "network": "IA",
+            "name": "Lengayang",
+            "latitude": "1.7081",
+            "longitude": "100.7199",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 211,
+        "fields": {
+            "code": "LRTI",
+            "network": "IA",
+            "name": "Larantuka",
+            "latitude": "-8.2752",
+            "longitude": "123",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 212,
+        "fields": {
+            "code": "LSCM",
+            "network": "IA",
+            "name": "Lalabati-Rilau",
+            "latitude": "-4.365",
+            "longitude": "119.8987",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 213,
+        "fields": {
+            "code": "LSNI",
+            "network": "IA",
+            "name": "Lunyuk",
+            "latitude": "-8.966651",
+            "longitude": "117.218239",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 214,
+        "fields": {
+            "code": "LTNI",
+            "network": "IA",
+            "name": "Lombok-Timur",
+            "latitude": "-8.768723",
+            "longitude": "116.484734",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 215,
+        "fields": {
+            "code": "LTNSI",
+            "network": "IA",
+            "name": "Lahewa Timur",
+            "latitude": "1.336",
+            "longitude": "97.320",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 216,
+        "fields": {
+            "code": "LTSM",
+            "network": "IA",
+            "name": "Lumut",
+            "latitude": "1.5294",
+            "longitude": "98.9305",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 217,
+        "fields": {
+            "code": "LUCM",
+            "network": "IA",
+            "name": "Lore-Utara",
+            "latitude": "-1.4262",
+            "longitude": "120.3225",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 218,
+        "fields": {
+            "code": "LUJI",
+            "network": "IA",
+            "name": "Lumbang",
+            "latitude": "-7.826",
+            "longitude": "113.0107",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 219,
+        "fields": {
+            "code": "LUWI",
+            "network": "IA",
+            "name": "Luwuk",
+            "latitude": "-1.0418",
+            "longitude": "122.7716",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 220,
+        "fields": {
+            "code": "MABKI",
+            "network": "IA",
+            "name": "Maratua",
+            "latitude": "2.2433",
+            "longitude": "118.5676",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 221,
+        "fields": {
+            "code": "MAKBI",
+            "network": "IA",
+            "name": "Manggis",
+            "latitude": "-8.487",
+            "longitude": "115.505",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 222,
+        "fields": {
+            "code": "MAKKI",
+            "network": "IA",
+            "name": "Kep.Karimata",
+            "latitude": "-1.582298",
+            "longitude": "108.796982",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 223,
+        "fields": {
+            "code": "MASFI",
+            "network": "IA",
+            "name": "Magepanda",
+            "latitude": "-8.537",
+            "longitude": "122.032",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 224,
+        "fields": {
+            "code": "MASM",
+            "network": "IA",
+            "name": "Masjid-Raya",
+            "latitude": "5.4996",
+            "longitude": "95.5186",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 225,
+        "fields": {
+            "code": "MASSI",
+            "network": "IA",
+            "name": "Marore",
+            "latitude": "4.733",
+            "longitude": "125.479",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 226,
+        "fields": {
+            "code": "MBBI",
+            "network": "IA",
+            "name": "Muara-Bungo",
+            "latitude": "-1.5410033",
+            "longitude": "102.098745",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 227,
+        "fields": {
+            "code": "MBJI",
+            "network": "IA",
+            "name": "Majalengka-Banjarnegara",
+            "latitude": "-7.4488",
+            "longitude": "109.6322",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 228,
+        "fields": {
+            "code": "MBPI",
+            "network": "IA",
+            "name": "Manimeri",
+            "latitude": "-2.035",
+            "longitude": "133.7322",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 229,
+        "fields": {
+            "code": "MBRPI",
+            "network": "IA",
+            "name": "MisoolBarat",
+            "latitude": "-1.771",
+            "longitude": "130.407",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 230,
+        "fields": {
+            "code": "MBSM",
+            "network": "IA",
+            "name": "Marga-Sakti-Seblat",
+            "latitude": "-3.145246",
+            "longitude": "101.83734",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 231,
+        "fields": {
+            "code": "MDSI",
+            "network": "IA",
+            "name": "Muara-Dua",
+            "latitude": "-4.486",
+            "longitude": "104.1782",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 232,
+        "fields": {
+            "code": "MGAI",
+            "network": "IA",
+            "name": "Melonguane-Kep-Talaud",
+            "latitude": "4.0079",
+            "longitude": "126.67",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 233,
+        "fields": {
+            "code": "MIBPI",
+            "network": "IA",
+            "name": "Mindiptana",
+            "latitude": "-5.879",
+            "longitude": "140.709",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 234,
+        "fields": {
+            "code": "MIPI",
+            "network": "IA",
+            "name": "Mimika-Baru",
+            "latitude": "-4.5301",
+            "longitude": "136.8935",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 235,
+        "fields": {
+            "code": "MISSI",
+            "network": "IA",
+            "name": "Miangas",
+            "latitude": "5.552612",
+            "longitude": "126.58147",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 236,
+        "fields": {
+            "code": "MKBI",
+            "network": "IA",
+            "name": "Muko-Muko",
+            "latitude": "-2.4474",
+            "longitude": "101.2396",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 237,
+        "fields": {
+            "code": "MKJM",
+            "network": "IA",
+            "name": "Manisrenggo",
+            "latitude": "-7.6629",
+            "longitude": "110.4834",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 238,
+        "fields": {
+            "code": "MKSM",
+            "network": "IA",
+            "name": "Muara-Sahung",
+            "latitude": "-4.57103",
+            "longitude": "103.360268",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 239,
+        "fields": {
+            "code": "MLJI",
+            "network": "IA",
+            "name": "Malang",
+            "latitude": "-8.1575",
+            "longitude": "112.4467",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 240,
+        "fields": {
+            "code": "MLJM",
+            "network": "IA",
+            "name": "Mantup",
+            "latitude": "-7.2483",
+            "longitude": "112.3379",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 241,
+        "fields": {
+            "code": "MLMMI",
+            "network": "IA",
+            "name": "MoaLakor",
+            "latitude": "-8.148",
+            "longitude": "127.792",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 242,
+        "fields": {
+            "code": "MMCI",
+            "network": "IA",
+            "name": "Mamasa",
+            "latitude": "-2.9556",
+            "longitude": "119.3628",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 243,
+        "fields": {
+            "code": "MMRI",
+            "network": "IA",
+            "name": "Maumere",
+            "latitude": "-8.6357",
+            "longitude": "122.2376",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 244,
+        "fields": {
+            "code": "MMSI",
+            "network": "IA",
+            "name": "Mamuju",
+            "latitude": "-2.6892",
+            "longitude": "118.909",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 245,
+        "fields": {
+            "code": "MNAI",
+            "network": "IA",
+            "name": "Manna",
+            "latitude": "-4.3605",
+            "longitude": "102.9557",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 246,
+        "fields": {
+            "code": "MNI",
+            "network": "IA",
+            "name": "Manado",
+            "latitude": "1.444",
+            "longitude": "124.84",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 247,
+        "fields": {
+            "code": "MNSI",
+            "network": "IA",
+            "name": "Mandailing-Natal",
+            "latitude": "0.7955",
+            "longitude": "99.5796",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 248,
+        "fields": {
+            "code": "MPSI",
+            "network": "IA",
+            "name": "Mapaga",
+            "latitude": "0.3374",
+            "longitude": "119.898",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 249,
+        "fields": {
+            "code": "MPSM",
+            "network": "IA",
+            "name": "Mapat-Tunggul",
+            "latitude": "0.5892",
+            "longitude": "100.1384",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 250,
+        "fields": {
+            "code": "MRSI",
+            "network": "IA",
+            "name": "Marisa",
+            "latitude": "0.4771",
+            "longitude": "121.9406",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 251,
+        "fields": {
+            "code": "MSAI",
+            "network": "IA",
+            "name": "Amahai",
+            "latitude": "-3.3462",
+            "longitude": "128.9285",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 252,
+        "fields": {
+            "code": "MSCM",
+            "network": "IA",
+            "name": "Masamba",
+            "latitude": "-2.534",
+            "longitude": "120.332",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 253,
+        "fields": {
+            "code": "MSHHI",
+            "network": "IA",
+            "name": "Maba Selatan",
+            "latitude": "0.629",
+            "longitude": "128.425",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 254,
+        "fields": {
+            "code": "MTAI",
+            "network": "IA",
+            "name": "Morotai",
+            "latitude": "2.198",
+            "longitude": "128.2758",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 255,
+        "fields": {
+            "code": "MTCM",
+            "network": "IA",
+            "name": "Malili",
+            "latitude": "-2.61",
+            "longitude": "121.118",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 256,
+        "fields": {
+            "code": "MTJPI",
+            "network": "IA",
+            "name": "MuaraTami",
+            "latitude": "-2.627",
+            "longitude": "140.864",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 257,
+        "fields": {
+            "code": "MTKI",
+            "network": "IA",
+            "name": "Muara-Teweh",
+            "latitude": "-0.9418",
+            "longitude": "114.8959",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 258,
+        "fields": {
+            "code": "MTMPI",
+            "network": "IA",
+            "name": "MamberamoTengah",
+            "latitude": "-2.305",
+            "longitude": "138.037",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 259,
+        "fields": {
+            "code": "MTMTI",
+            "network": "IA",
+            "name": "Malaka Tengah",
+            "latitude": "-9.585",
+            "longitude": "124.875",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 260,
+        "fields": {
+            "code": "MTSI",
+            "network": "IA",
+            "name": "Manduamas",
+            "latitude": "2.1527",
+            "longitude": "98.2527",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 261,
+        "fields": {
+            "code": "MTSM",
+            "network": "IA",
+            "name": "Muara-Dua",
+            "latitude": "-4.3053",
+            "longitude": "103.509",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 262,
+        "fields": {
+            "code": "MUMUI",
+            "network": "IA",
+            "name": "Mangoli Utara",
+            "latitude": "-1.785",
+            "longitude": "125.481",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 263,
+        "fields": {
+            "code": "MUTSI",
+            "network": "IA",
+            "name": "Muara",
+            "latitude": "2.300",
+            "longitude": "98.965",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 264,
+        "fields": {
+            "code": "MWPI",
+            "network": "IA",
+            "name": "Manokwari",
+            "latitude": "-0.9258",
+            "longitude": "134.0431",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 265,
+        "fields": {
+            "code": "NANFI",
+            "network": "IA",
+            "name": "Nangaroro",
+            "latitude": "-8.761",
+            "longitude": "121.302",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 266,
+        "fields": {
+            "code": "NBMI",
+            "network": "IA",
+            "name": "Namrole",
+            "latitude": "-3.7113",
+            "longitude": "126.419",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 267,
+        "fields": {
+            "code": "NBPI",
+            "network": "IA",
+            "name": "Nabire",
+            "latitude": "-3.3656",
+            "longitude": "135.4972",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 268,
+        "fields": {
+            "code": "NGJI",
+            "network": "IA",
+            "name": "Ngawi",
+            "latitude": "-7.3676",
+            "longitude": "111.4612",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 269,
+        "fields": {
+            "code": "NJBM",
+            "network": "IA",
+            "name": "Negara",
+            "latitude": "-8.3099",
+            "longitude": "114.6171",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 270,
+        "fields": {
+            "code": "NKBI",
+            "network": "IA",
+            "name": "Nusa-Penida",
+            "latitude": "-8.726115",
+            "longitude": "115.5259633",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 271,
+        "fields": {
+            "code": "NKKI",
+            "network": "IA",
+            "name": "Nanga-Tayap",
+            "latitude": "-1.56",
+            "longitude": "110.5666",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 272,
+        "fields": {
+            "code": "NSBMM",
+            "network": "IA",
+            "name": "Seram-Barat",
+            "latitude": "-3.0828",
+            "longitude": "128.2096",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 273,
+        "fields": {
+            "code": "OBMI",
+            "network": "IA",
+            "name": "Pulau-Obi",
+            "latitude": "-1.3414",
+            "longitude": "127.6444",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 274,
+        "fields": {
+            "code": "OBMPI",
+            "network": "IA",
+            "name": "Obaa",
+            "latitude": "-6.555",
+            "longitude": "139.300",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 275,
+        "fields": {
+            "code": "OMBFM",
+            "network": "IA",
+            "name": "Komodo",
+            "latitude": "-8.691",
+            "longitude": "119.8247",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 276,
+        "fields": {
+            "code": "ONSM",
+            "network": "IA",
+            "name": "Onan-Ganjang",
+            "latitude": "2.1598",
+            "longitude": "98.63",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 277,
+        "fields": {
+            "code": "PAASI",
+            "network": "IA",
+            "name": "Pulo Aceh",
+            "latitude": "5.671",
+            "longitude": "95.129",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 278,
+        "fields": {
+            "code": "PABI",
+            "network": "IA",
+            "name": "Pasaman",
+            "latitude": "0.1241",
+            "longitude": "99.8719",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 279,
+        "fields": {
+            "code": "PABKI",
+            "network": "IA",
+            "name": "Paramasan",
+            "latitude": "-3.112172",
+            "longitude": "115.364220",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 280,
+        "fields": {
+            "code": "PAFM",
+            "network": "IA",
+            "name": "Pantar-Tengah",
+            "latitude": "-8.3832",
+            "longitude": "124.1283",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 281,
+        "fields": {
+            "code": "PAKI",
+            "network": "IA",
+            "name": "Paser",
+            "latitude": "-1.909218",
+            "longitude": "116.19141",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 282,
+        "fields": {
+            "code": "PASJI",
+            "network": "IA",
+            "name": "Padarincang",
+            "latitude": "-6.2120",
+            "longitude": "105.9835",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 283,
+        "fields": {
+            "code": "PASMI",
+            "network": "IA",
+            "name": "PagaiSelatan",
+            "latitude": "-2.9646",
+            "longitude": "100.2028",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 284,
+        "fields": {
+            "code": "PBCI",
+            "network": "IA",
+            "name": "Bolaang-Uki",
+            "latitude": "0.383",
+            "longitude": "124.0396",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 285,
+        "fields": {
+            "code": "PBJI",
+            "network": "IA",
+            "name": "Pasir-Jambu",
+            "latitude": "-7.0874767",
+            "longitude": "107.4757817",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 286,
+        "fields": {
+            "code": "PBKI",
+            "network": "IA",
+            "name": "Pangkalan-Bun",
+            "latitude": "-2.7047",
+            "longitude": "111.6697",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 287,
+        "fields": {
+            "code": "PBLI",
+            "network": "IA",
+            "name": "Pujut",
+            "latitude": "-8.8218",
+            "longitude": "116.2778",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 288,
+        "fields": {
+            "code": "PBMMI",
+            "network": "IA",
+            "name": "Pulau-PulauBabar",
+            "latitude": "-7.86",
+            "longitude": "129.597",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 289,
+        "fields": {
+            "code": "PBMSI",
+            "network": "IA",
+            "name": "Poigar",
+            "latitude": "0.995298",
+            "longitude": "124.282277",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 290,
+        "fields": {
+            "code": "PBNI",
+            "network": "IA",
+            "name": "Parado",
+            "latitude": "-8.755",
+            "longitude": "118.56852",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 291,
+        "fields": {
+            "code": "PBSI",
+            "network": "IA",
+            "name": "Pulau-Batu",
+            "latitude": "-0.0547",
+            "longitude": "98.28",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 292,
+        "fields": {
+            "code": "PCI",
+            "network": "IA",
+            "name": "Palu",
+            "latitude": "-0.9055",
+            "longitude": "119.8367",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 293,
+        "fields": {
+            "code": "PCJI",
+            "network": "IA",
+            "name": "Pacitan",
+            "latitude": "-8.1947",
+            "longitude": "111.1771",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 294,
+        "fields": {
+            "code": "PCJM",
+            "network": "IA",
+            "name": "Pabuaran",
+            "latitude": "-6.913",
+            "longitude": "108.7192",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 295,
+        "fields": {
+            "code": "PDLI",
+            "network": "IA",
+            "name": "Tambora",
+            "latitude": "-8.1037",
+            "longitude": "117.8729",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 296,
+        "fields": {
+            "code": "PDSI",
+            "network": "IA",
+            "name": "Padang",
+            "latitude": "-0.9118",
+            "longitude": "100.4617",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 297,
+        "fields": {
+            "code": "PGJM",
+            "network": "IA",
+            "name": "Panggang",
+            "latitude": "-8.0102",
+            "longitude": "110.4142",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 298,
+        "fields": {
+            "code": "PICM",
+            "network": "IA",
+            "name": "Parigi-Utara",
+            "latitude": "-0.711",
+            "longitude": "120.0887",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 299,
+        "fields": {
+            "code": "PKCI",
+            "network": "IA",
+            "name": "Palangga",
+            "latitude": "-4.2918",
+            "longitude": "122.481",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 300,
+        "fields": {
+            "code": "PKJI",
+            "network": "IA",
+            "name": "Paninggaran",
+            "latitude": "-7.1678",
+            "longitude": "109.5798",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 301,
+        "fields": {
+            "code": "PKJM",
+            "network": "IA",
+            "name": "Pasawahan",
+            "latitude": "-6.7988",
+            "longitude": "108.445",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 302,
+        "fields": {
+            "code": "PKSI",
+            "network": "IA",
+            "name": "Pagar-AlamUtara",
+            "latitude": "-4.0428",
+            "longitude": "103.2639",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 303,
+        "fields": {
+            "code": "PLAI",
+            "network": "IA",
+            "name": "Plampang",
+            "latitude": "-8.7006",
+            "longitude": "117.7219",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 304,
+        "fields": {
+            "code": "PLJI",
+            "network": "IA",
+            "name": "Plosoklaten",
+            "latitude": "-7.8616",
+            "longitude": "112.1548",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 305,
+        "fields": {
+            "code": "PLSI",
+            "network": "IA",
+            "name": "Pangkalan-KotoBaru",
+            "latitude": "0.23729",
+            "longitude": "100.55398",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 306,
+        "fields": {
+            "code": "PLSM",
+            "network": "IA",
+            "name": "Sosa",
+            "latitude": "1.0576",
+            "longitude": "99.7759",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 307,
+        "fields": {
+            "code": "PMBI",
+            "network": "IA",
+            "name": "Palembang",
+            "latitude": "-2.9024",
+            "longitude": "104.6993",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 308,
+        "fields": {
+            "code": "PMCI",
+            "network": "IA",
+            "name": "Pasangkayu",
+            "latitude": "-1.1748",
+            "longitude": "119.398",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 309,
+        "fields": {
+            "code": "PMMI",
+            "network": "IA",
+            "name": "Pulau-Makian",
+            "latitude": "0.372",
+            "longitude": "127.4158",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 310,
+        "fields": {
+            "code": "PMSI",
+            "network": "IA",
+            "name": "Majene",
+            "latitude": "-3.5008",
+            "longitude": "118.9149",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 311,
+        "fields": {
+            "code": "POBSI",
+            "network": "IA",
+            "name": "Poleang",
+            "latitude": "-4.740",
+            "longitude": "122.002",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 312,
+        "fields": {
+            "code": "POCI",
+            "network": "IA",
+            "name": "Poso-Pesisir",
+            "latitude": "-1.42032",
+            "longitude": "120.657",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 313,
+        "fields": {
+            "code": "POKJI",
+            "network": "IA",
+            "name": "Poncokusumo",
+            "latitude": "-8.053",
+            "longitude": "112.812",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 314,
+        "fields": {
+            "code": "PPCM",
+            "network": "IA",
+            "name": "Patampanua",
+            "latitude": "-3.727",
+            "longitude": "119.7269",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 315,
+        "fields": {
+            "code": "PPI",
+            "network": "IA",
+            "name": "Padangpanjang",
+            "latitude": "-0.455",
+            "longitude": "100.3968",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 316,
+        "fields": {
+            "code": "PPJI",
+            "network": "IA",
+            "name": "Tretes",
+            "latitude": "-7.7054",
+            "longitude": "112.635",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 317,
+        "fields": {
+            "code": "PPLI",
+            "network": "IA",
+            "name": "Punduh-Pedada",
+            "latitude": "-5.74103",
+            "longitude": "105.14486",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 318,
+        "fields": {
+            "code": "PPSI",
+            "network": "IA",
+            "name": "Pulau-Pagai",
+            "latitude": "-2.766",
+            "longitude": "100.01",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 319,
+        "fields": {
+            "code": "PPSM",
+            "network": "IA",
+            "name": "Pesisir-Selatan",
+            "latitude": "-5.3181",
+            "longitude": "104.0153",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 320,
+        "fields": {
+            "code": "PRJI",
+            "network": "IA",
+            "name": "Pracimantoro",
+            "latitude": "-8.07216",
+            "longitude": "110.79178",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 321,
+        "fields": {
+            "code": "PRLJI",
+            "network": "IA",
+            "name": "Pasiran",
+            "latitude": "-8.232273",
+            "longitude": "113.114018",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 322,
+        "fields": {
+            "code": "PRSI",
+            "network": "IA",
+            "name": "Pelalawan",
+            "latitude": "0.377521",
+            "longitude": "101.822472",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 323,
+        "fields": {
+            "code": "PSI",
+            "network": "IA",
+            "name": "Parapat",
+            "latitude": "2.6952",
+            "longitude": "98.924",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 324,
+        "fields": {
+            "code": "PSJCM",
+            "network": "IA",
+            "name": "Pasimassungu",
+            "latitude": "-7.06",
+            "longitude": "120.6202",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 325,
+        "fields": {
+            "code": "PSJM",
+            "network": "IA",
+            "name": "Pelabuhan-Ratu",
+            "latitude": "-6.9853",
+            "longitude": "106.5604",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 326,
+        "fields": {
+            "code": "PSLI",
+            "network": "IA",
+            "name": "Rajabasa-P.Sibesi",
+            "latitude": "-5.93732",
+            "longitude": "105.51004",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 327,
+        "fields": {
+            "code": "PSSI",
+            "network": "IA",
+            "name": "Siau",
+            "latitude": "2.7353",
+            "longitude": "125.4045",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 328,
+        "fields": {
+            "code": "PSSM",
+            "network": "IA",
+            "name": "Pematang-Sawah",
+            "latitude": "-5.8643",
+            "longitude": "104.6954",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 329,
+        "fields": {
+            "code": "PTJI",
+            "network": "IA",
+            "name": "Pondok-Aren",
+            "latitude": "-6.255535",
+            "longitude": "106.748825",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 330,
+        "fields": {
+            "code": "PTSM",
+            "network": "IA",
+            "name": "Pangaribuan",
+            "latitude": "2.0118",
+            "longitude": "99.166",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 331,
+        "fields": {
+            "code": "PUPSI",
+            "network": "IA",
+            "name": "Pamona Utara",
+            "latitude": "-1.733",
+            "longitude": "120.676",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 332,
+        "fields": {
+            "code": "PWCM",
+            "network": "IA",
+            "name": "Pitumpanua",
+            "latitude": "-3.6739",
+            "longitude": "120.4014",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 333,
+        "fields": {
+            "code": "PWJI",
+            "network": "IA",
+            "name": "Pagerwojo",
+            "latitude": "-8.22",
+            "longitude": "111.8039",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 334,
+        "fields": {
+            "code": "RASM",
+            "network": "IA",
+            "name": "Ranah-Ampek-HuluTapan",
+            "latitude": "-2.16527",
+            "longitude": "101.0705",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 335,
+        "fields": {
+            "code": "RDCM",
+            "network": "IA",
+            "name": "Rio-Pakava",
+            "latitude": "-1.2955",
+            "longitude": "119.5524",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 336,
+        "fields": {
+            "code": "RGRI",
+            "network": "IA",
+            "name": "Rengat",
+            "latitude": "-0.3491",
+            "longitude": "102.3338",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 337,
+        "fields": {
+            "code": "RHRSI",
+            "network": "IA",
+            "name": "Rokan-Hilir",
+            "latitude": "1.561797",
+            "longitude": "101.002914",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 338,
+        "fields": {
+            "code": "RKCM",
+            "network": "IA",
+            "name": "Rauta",
+            "latitude": "-2.5625",
+            "longitude": "121.345",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 339,
+        "fields": {
+            "code": "RKPI",
+            "network": "IA",
+            "name": "Ransiki",
+            "latitude": "-1.5107",
+            "longitude": "134.1773",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 340,
+        "fields": {
+            "code": "RLSI",
+            "network": "IA",
+            "name": "Rantau-Selatan",
+            "latitude": "2.0686",
+            "longitude": "99.8553",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 341,
+        "fields": {
+            "code": "RMSM",
+            "network": "IA",
+            "name": "Rawas-Hulu",
+            "latitude": "-2.62326",
+            "longitude": "102.7617",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 342,
+        "fields": {
+            "code": "RNFM",
+            "network": "IA",
+            "name": "Riung",
+            "latitude": "-8.4294",
+            "longitude": "121.0262",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 343,
+        "fields": {
+            "code": "RONI",
+            "network": "IA",
+            "name": "Rote",
+            "latitude": "-10.7658",
+            "longitude": "123.0732",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 344,
+        "fields": {
+            "code": "ROTTI",
+            "network": "IA",
+            "name": "RoteBaratDaya",
+            "latitude": "-10.806",
+            "longitude": "123.013",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 345,
+        "fields": {
+            "code": "RRHRI",
+            "network": "IA",
+            "name": "Rokan-IV-Kota",
+            "latitude": "0.571374",
+            "longitude": "100.427397",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 346,
+        "fields": {
+            "code": "RRSI",
+            "network": "IA",
+            "name": "Rambah",
+            "latitude": "0.84096",
+            "longitude": "100.34611",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 347,
+        "fields": {
+            "code": "RSNI",
+            "network": "IA",
+            "name": "Ropang",
+            "latitude": "-8.885942",
+            "longitude": "117.482956",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 348,
+        "fields": {
+            "code": "RSSM",
+            "network": "IA",
+            "name": "Ronggurnihuta",
+            "latitude": "2.5981",
+            "longitude": "98.7832",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 349,
+        "fields": {
+            "code": "RTBI",
+            "network": "IA",
+            "name": "Rangdo",
+            "latitude": "-8.4597",
+            "longitude": "114.942",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 350,
+        "fields": {
+            "code": "SAASI",
+            "network": "IA",
+            "name": "Seulimum",
+            "latitude": "5.562",
+            "longitude": "95.525",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 351,
+        "fields": {
+            "code": "SADLY",
+            "network": "IA",
+            "name": "Gunung-Kencana",
+            "latitude": "-6.5737854",
+            "longitude": "106.074132",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 352,
+        "fields": {
+            "code": "SAKJI",
+            "network": "IA",
+            "name": "Samigaluh",
+            "latitude": "-7.686",
+            "longitude": "110.155",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 353,
+        "fields": {
+            "code": "SAMKI",
+            "network": "IA",
+            "name": "Meliau",
+            "latitude": "-0.189253",
+            "longitude": "110.363670",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 354,
+        "fields": {
+            "code": "SANI",
+            "network": "IA",
+            "name": "Sanana",
+            "latitude": "-2.0497",
+            "longitude": "125.9881",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 355,
+        "fields": {
+            "code": "SAPSI",
+            "network": "IA",
+            "name": "Sausu",
+            "latitude": "-1.000",
+            "longitude": "120.464",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 356,
+        "fields": {
+            "code": "SASI",
+            "network": "IA",
+            "name": "Simpang-Empat",
+            "latitude": "0.1241",
+            "longitude": "99.8754",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 357,
+        "fields": {
+            "code": "SASM",
+            "network": "IA",
+            "name": "Sampoiniet",
+            "latitude": "5.1272",
+            "longitude": "95.6091",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 358,
+        "fields": {
+            "code": "SATPI",
+            "network": "IA",
+            "name": "SarmiTimur",
+            "latitude": "-1.972",
+            "longitude": "138.870",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 359,
+        "fields": {
+            "code": "SAUI",
+            "network": "IA",
+            "name": "Saumlaki",
+            "latitude": "-7.9826",
+            "longitude": "131.2988",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 360,
+        "fields": {
+            "code": "SBBM",
+            "network": "IA",
+            "name": "Seririt",
+            "latitude": "-8.2031",
+            "longitude": "114.9179",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 361,
+        "fields": {
+            "code": "SBJI",
+            "network": "IA",
+            "name": "Serang",
+            "latitude": "-6.1117",
+            "longitude": "106.1318",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 362,
+        "fields": {
+            "code": "SBNI",
+            "network": "IA",
+            "name": "Sabu",
+            "latitude": "-10.4917",
+            "longitude": "121.8457",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 363,
+        "fields": {
+            "code": "SBSM",
+            "network": "IA",
+            "name": "Sungai-Beremas",
+            "latitude": "0.1979",
+            "longitude": "99.3773",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 364,
+        "fields": {
+            "code": "SBSSI",
+            "network": "IA",
+            "name": "Sigi Biromaru",
+            "latitude": "-1.206",
+            "longitude": "119.889",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 365,
+        "fields": {
+            "code": "SCJI",
+            "network": "IA",
+            "name": "Gunung-Srandil",
+            "latitude": "-7.681",
+            "longitude": "109.1689",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 366,
+        "fields": {
+            "code": "SCJM",
+            "network": "IA",
+            "name": "Sukaluyu",
+            "latitude": "-6.8437",
+            "longitude": "107.2221",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 367,
+        "fields": {
+            "code": "SDCI",
+            "network": "IA",
+            "name": "Sindue",
+            "latitude": "-0.4084",
+            "longitude": "119.777",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 368,
+        "fields": {
+            "code": "SDSI",
+            "network": "IA",
+            "name": "Sungai-Dareh",
+            "latitude": "-0.9325",
+            "longitude": "101.428",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 369,
+        "fields": {
+            "code": "SDSM",
+            "network": "IA",
+            "name": "Sidikalang",
+            "latitude": "2.7545",
+            "longitude": "98.295",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 370,
+        "fields": {
+            "code": "SEJI",
+            "network": "IA",
+            "name": "Senori",
+            "latitude": "-7.0051",
+            "longitude": "111.7288",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 371,
+        "fields": {
+            "code": "SEMI",
+            "network": "IA",
+            "name": "Seram-UtaraTimur-Seti",
+            "latitude": "-2.917",
+            "longitude": "129.8209",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 372,
+        "fields": {
+            "code": "SGKI",
+            "network": "IA",
+            "name": "Sangata",
+            "latitude": "0.5302",
+            "longitude": "117.6043",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 373,
+        "fields": {
+            "code": "SGSI",
+            "network": "IA",
+            "name": "Sangihe",
+            "latitude": "3.686",
+            "longitude": "125.5286",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 374,
+        "fields": {
+            "code": "SICJI",
+            "network": "IA",
+            "name": "Sidareja",
+            "latitude": "-7.472",
+            "longitude": "108.808",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 375,
+        "fields": {
+            "code": "SIJI",
+            "network": "IA",
+            "name": "Sorong",
+            "latitude": "-0.8691",
+            "longitude": "131.2661",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 376,
+        "fields": {
+            "code": "SIJM",
+            "network": "IA",
+            "name": "Sidoarjo",
+            "latitude": "-7.410065",
+            "longitude": "112.760449",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 377,
+        "fields": {
+            "code": "SIRSI",
+            "network": "IA",
+            "name": "Siak",
+            "latitude": "0.891736",
+            "longitude": "101.236481",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 378,
+        "fields": {
+            "code": "SISM",
+            "network": "IA",
+            "name": "Silih-Nara",
+            "latitude": "4.6895",
+            "longitude": "96.525",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 379,
+        "fields": {
+            "code": "SISMI",
+            "network": "IA",
+            "name": "SiberutSelatan",
+            "latitude": "-1.78060",
+            "longitude": "99.14018",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 380,
+        "fields": {
+            "code": "SIUMI",
+            "network": "IA",
+            "name": "Siberut Utara",
+            "latitude": "-1.126",
+            "longitude": "98.980",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 381,
+        "fields": {
+            "code": "SJPM",
+            "network": "IA",
+            "name": "Sentani",
+            "latitude": "-2.5698",
+            "longitude": "140.5029",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 382,
+        "fields": {
+            "code": "SKJI",
+            "network": "IA",
+            "name": "Sukabumi",
+            "latitude": "-7.0053",
+            "longitude": "106.5563",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 383,
+        "fields": {
+            "code": "SKPM",
+            "network": "IA",
+            "name": "Senggi",
+            "latitude": "-3.4485",
+            "longitude": "140.7256",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 384,
+        "fields": {
+            "code": "SKSI",
+            "network": "IA",
+            "name": "Sukakarya",
+            "latitude": "5.8241",
+            "longitude": "95.302368",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 385,
+        "fields": {
+            "code": "SKSM",
+            "network": "IA",
+            "name": "Siulak-Mukai",
+            "latitude": "-1.9461",
+            "longitude": "101.35",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 386,
+        "fields": {
+            "code": "SLBFM",
+            "network": "IA",
+            "name": "Sekotong-Tengah",
+            "latitude": "-8.7956",
+            "longitude": "115.9336",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 387,
+        "fields": {
+            "code": "SLSI",
+            "network": "IA",
+            "name": "Sarolangun",
+            "latitude": "-2.3924",
+            "longitude": "102.5927",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 388,
+        "fields": {
+            "code": "SLSM",
+            "network": "IA",
+            "name": "Sungai-Lasi",
+            "latitude": "0.8311",
+            "longitude": "100.6533",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 389,
+        "fields": {
+            "code": "SMKI",
+            "network": "IA",
+            "name": "Samarinda",
+            "latitude": "-0.4461",
+            "longitude": "117.2085",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 390,
+        "fields": {
+            "code": "SMPI",
+            "network": "IA",
+            "name": "Sarmi",
+            "latitude": "-1.99",
+            "longitude": "138.71",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 391,
+        "fields": {
+            "code": "SMRI",
+            "network": "IA",
+            "name": "Semarang",
+            "latitude": "-7.0491",
+            "longitude": "110.4408",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 392,
+        "fields": {
+            "code": "SMSI",
+            "network": "IA",
+            "name": "Sumalata",
+            "latitude": "0.9885",
+            "longitude": "122.3654",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 393,
+        "fields": {
+            "code": "SMSM",
+            "network": "IA",
+            "name": "Simpati",
+            "latitude": "0.0064",
+            "longitude": "100.1707",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 394,
+        "fields": {
+            "code": "SNBI",
+            "network": "IA",
+            "name": "Sirombu",
+            "latitude": "0.932",
+            "longitude": "97.4651",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 395,
+        "fields": {
+            "code": "SNJI",
+            "network": "IA",
+            "name": "Sawahan",
+            "latitude": "-7.7808",
+            "longitude": "111.7591",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 396,
+        "fields": {
+            "code": "SNSI",
+            "network": "IA",
+            "name": "Sinabang",
+            "latitude": "2.4089",
+            "longitude": "96.3267",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 397,
+        "fields": {
+            "code": "SOEI",
+            "network": "IA",
+            "name": "Soei",
+            "latitude": "-9.7553",
+            "longitude": "124.2672",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 398,
+        "fields": {
+            "code": "SOMPI",
+            "network": "IA",
+            "name": "Sota",
+            "latitude": "-8.431",
+            "longitude": "141.007",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 399,
+        "fields": {
+            "code": "SPSI",
+            "network": "IA",
+            "name": "Sidrap",
+            "latitude": "-3.9646",
+            "longitude": "119.7691",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 400,
+        "fields": {
+            "code": "SPSJM",
+            "network": "IA",
+            "name": "Serang-Panjang",
+            "latitude": "-6.6667",
+            "longitude": "107.6137",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 401,
+        "fields": {
+            "code": "SPSM",
+            "network": "IA",
+            "name": "Sitellu-Tali-UrangJulu",
+            "latitude": "2.516",
+            "longitude": "98.3737",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 402,
+        "fields": {
+            "code": "SRBI",
+            "network": "IA",
+            "name": "Singaraja",
+            "latitude": "-8.0848",
+            "longitude": "115.2126",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 403,
+        "fields": {
+            "code": "SRMI",
+            "network": "IA",
+            "name": "Seram-Utara",
+            "latitude": "-2.9415",
+            "longitude": "129.1818",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 404,
+        "fields": {
+            "code": "SRPI",
+            "network": "IA",
+            "name": "Serui",
+            "latitude": "-1.8755",
+            "longitude": "136.24",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 405,
+        "fields": {
+            "code": "SRSI",
+            "network": "IA",
+            "name": "Sorowako",
+            "latitude": "-2.5315",
+            "longitude": "120.87",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 406,
+        "fields": {
+            "code": "SSASI",
+            "network": "IA",
+            "name": "Simeulue Barat",
+            "latitude": "2.830",
+            "longitude": "95.925",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 407,
+        "fields": {
+            "code": "SSJM",
+            "network": "IA",
+            "name": "Sukaraja",
+            "latitude": "-6.8872",
+            "longitude": "106.9626",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 408,
+        "fields": {
+            "code": "SSKI",
+            "network": "IA",
+            "name": "Singkawang",
+            "latitude": "0.8178",
+            "longitude": "108.96",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 409,
+        "fields": {
+            "code": "SSMI",
+            "network": "IA",
+            "name": "Siritaun-WidaTimur",
+            "latitude": "-3.7367",
+            "longitude": "130.8287",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 410,
+        "fields": {
+            "code": "SSSI",
+            "network": "IA",
+            "name": "Subulussalam",
+            "latitude": "2.6748",
+            "longitude": "97.9707",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 411,
+        "fields": {
+            "code": "SSSM",
+            "network": "IA",
+            "name": "Sangir",
+            "latitude": "-1.5642",
+            "longitude": "101.2375",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 412,
+        "fields": {
+            "code": "STSI",
+            "network": "IA",
+            "name": "Silaut",
+            "latitude": "-2.38874",
+            "longitude": "101.04783",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 413,
+        "fields": {
+            "code": "SUPJI",
+            "network": "IA",
+            "name": "Sumur",
+            "latitude": "-6.796",
+            "longitude": "105.515",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 414,
+        "fields": {
+            "code": "SUSM",
+            "network": "IA",
+            "name": "Sekincau",
+            "latitude": "-5.0212",
+            "longitude": "104.2945",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 415,
+        "fields": {
+            "code": "SUSPI",
+            "network": "IA",
+            "name": "SupioriTimur",
+            "latitude": "-0.732",
+            "longitude": "135.734",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 416,
+        "fields": {
+            "code": "SWCM",
+            "network": "IA",
+            "name": "Sabbang-Paru",
+            "latitude": "-4.2145",
+            "longitude": "120.0109",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 417,
+        "fields": {
+            "code": "SWI",
+            "network": "IA",
+            "name": "Sorong",
+            "latitude": "-0.8628",
+            "longitude": "131.2592",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 418,
+        "fields": {
+            "code": "SWJI",
+            "network": "IA",
+            "name": "Sawahan",
+            "latitude": "-7.7349",
+            "longitude": "111.7669",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 419,
+        "fields": {
+            "code": "SWPM",
+            "network": "IA",
+            "name": "Sidey",
+            "latitude": "-0.8036",
+            "longitude": "133.5948",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 420,
+        "fields": {
+            "code": "SYJI",
+            "network": "IA",
+            "name": "Candi-Abang",
+            "latitude": "-7.811574",
+            "longitude": "110.47111",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 421,
+        "fields": {
+            "code": "TAGJI",
+            "network": "IA",
+            "name": "Tanjungsari",
+            "latitude": "-8.077",
+            "longitude": "110.585",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 422,
+        "fields": {
+            "code": "TAMI",
+            "network": "IA",
+            "name": "Teluk-Ambon",
+            "latitude": "-3.6764",
+            "longitude": "128.1108",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 423,
+        "fields": {
+            "code": "TAPSI",
+            "network": "IA",
+            "name": "Tapango",
+            "latitude": "-3.322",
+            "longitude": "119.249",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 424,
+        "fields": {
+            "code": "TARAI",
+            "network": "IA",
+            "name": "Tarakan",
+            "latitude": "3.3271",
+            "longitude": "117.5704",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 425,
+        "fields": {
+            "code": "TASI",
+            "network": "IA",
+            "name": "Tanjung-Raya",
+            "latitude": "-0.2991",
+            "longitude": "100.2246",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 426,
+        "fields": {
+            "code": "TASSI",
+            "network": "IA",
+            "name": "Tagulandang SiauTagulandangBiaro",
+            "latitude": "2.347",
+            "longitude": "125.386",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 427,
+        "fields": {
+            "code": "TBCM",
+            "network": "IA",
+            "name": "Tonra",
+            "latitude": "-4.9118",
+            "longitude": "120.2824",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 428,
+        "fields": {
+            "code": "TBJI",
+            "network": "IA",
+            "name": "Tambak-Boyo",
+            "latitude": "-6.8179",
+            "longitude": "111.8481",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 429,
+        "fields": {
+            "code": "TBJKI",
+            "network": "IA",
+            "name": "Jaro",
+            "latitude": "-1.847503",
+            "longitude": "115.624908",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 430,
+        "fields": {
+            "code": "TBKI",
+            "network": "IA",
+            "name": "Teluk-Bayur",
+            "latitude": "2.136",
+            "longitude": "117.4242",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 431,
+        "fields": {
+            "code": "TBMCM",
+            "network": "IA",
+            "name": "Tutuyan",
+            "latitude": "0.714",
+            "longitude": "124.5902",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 432,
+        "fields": {
+            "code": "TBMUI",
+            "network": "IA",
+            "name": "TaliabuBarat",
+            "latitude": "-1.900",
+            "longitude": "124.344",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 433,
+        "fields": {
+            "code": "TDNI",
+            "network": "IA",
+            "name": "Teluk-Dalam",
+            "latitude": "0.5792",
+            "longitude": "97.815",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 434,
+        "fields": {
+            "code": "TEBBI",
+            "network": "IA",
+            "name": "Tejakula",
+            "latitude": "-8.151183",
+            "longitude": "115.373344",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 435,
+        "fields": {
+            "code": "TGCM",
+            "network": "IA",
+            "name": "Telaga",
+            "latitude": "0.5199",
+            "longitude": "123.0772",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 436,
+        "fields": {
+            "code": "TIKSI",
+            "network": "IA",
+            "name": "Tinondo",
+            "latitude": "-3.977",
+            "longitude": "121.866",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 437,
+        "fields": {
+            "code": "TIPSI",
+            "network": "IA",
+            "name": "Tinombo",
+            "latitude": "0.489",
+            "longitude": "120.419",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 438,
+        "fields": {
+            "code": "TKSM",
+            "network": "IA",
+            "name": "Tiganderket",
+            "latitude": "3.1374",
+            "longitude": "98.3244",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 439,
+        "fields": {
+            "code": "TLCM",
+            "network": "IA",
+            "name": "Tomoni",
+            "latitude": "-2.495",
+            "longitude": "120.772",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 440,
+        "fields": {
+            "code": "TLE2",
+            "network": "IA",
+            "name": "Tual",
+            "latitude": "-5.6373",
+            "longitude": "132.7497",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 441,
+        "fields": {
+            "code": "TMSI",
+            "network": "IA",
+            "name": "Tondano",
+            "latitude": "1.2948",
+            "longitude": "124.92",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 442,
+        "fields": {
+            "code": "TMSM",
+            "network": "IA",
+            "name": "Teramang-Jaya",
+            "latitude": "-2.699658",
+            "longitude": "101.446276",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 443,
+        "fields": {
+            "code": "TMTMM",
+            "network": "IA",
+            "name": "Tehoru",
+            "latitude": "-3.298",
+            "longitude": "129.5305",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 444,
+        "fields": {
+            "code": "TNGI",
+            "network": "IA",
+            "name": "Tangerang",
+            "latitude": "-6.172",
+            "longitude": "106.647",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 445,
+        "fields": {
+            "code": "TNTI",
+            "network": "IA",
+            "name": "Ternate",
+            "latitude": "0.7721",
+            "longitude": "127.3669",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 446,
+        "fields": {
+            "code": "TOBSI",
+            "network": "IA",
+            "name": "Toili",
+            "latitude": "-1.446",
+            "longitude": "122.250",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 447,
+        "fields": {
+            "code": "TOCM",
+            "network": "IA",
+            "name": "Towuti",
+            "latitude": "-2.648",
+            "longitude": "121.399",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 448,
+        "fields": {
+            "code": "TOJI",
+            "network": "IA",
+            "name": "Tomo",
+            "latitude": "-6.7621",
+            "longitude": "108.1344",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 449,
+        "fields": {
+            "code": "TOLI2",
+            "network": "IA",
+            "name": "Tolitoli",
+            "latitude": "1.1214",
+            "longitude": "120.7945",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 450,
+        "fields": {
+            "code": "TOTSI",
+            "network": "IA",
+            "name": "Tojo",
+            "latitude": "-1.153",
+            "longitude": "121.284",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 451,
+        "fields": {
+            "code": "TPCI",
+            "network": "IA",
+            "name": "Taopa",
+            "latitude": "0.4674",
+            "longitude": "121.0993",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 452,
+        "fields": {
+            "code": "TPI",
+            "network": "IA",
+            "name": "Tanjung-Pandan",
+            "latitude": "-2.7564",
+            "longitude": "107.6534",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 453,
+        "fields": {
+            "code": "TPRI",
+            "network": "IA",
+            "name": "Tanjung-Pinang",
+            "latitude": "0.92",
+            "longitude": "104.32",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 454,
+        "fields": {
+            "code": "TPSI",
+            "network": "IA",
+            "name": "Tangse",
+            "latitude": "4.9908",
+            "longitude": "95.9487",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 455,
+        "fields": {
+            "code": "TPTI",
+            "network": "IA",
+            "name": "Tapak-Tuan",
+            "latitude": "3.2618",
+            "longitude": "97.1774",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 456,
+        "fields": {
+            "code": "TRIYO",
+            "network": "IA",
+            "name": "Sipora-Selatan",
+            "latitude": "-2.0602",
+            "longitude": "99.5831",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 457,
+        "fields": {
+            "code": "TRPI",
+            "network": "IA",
+            "name": "Tanah-Merah",
+            "latitude": "-6.0989",
+            "longitude": "140.300157",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 458,
+        "fields": {
+            "code": "TSI",
+            "network": "IA",
+            "name": "Tuntungan",
+            "latitude": "3.5012",
+            "longitude": "98.5645",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 459,
+        "fields": {
+            "code": "TSJM",
+            "network": "IA",
+            "name": "Tanjungsiang",
+            "latitude": "-6.7319",
+            "longitude": "107.8109",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 460,
+        "fields": {
+            "code": "TSNI",
+            "network": "IA",
+            "name": "Tarano",
+            "latitude": "-8.715111",
+            "longitude": "118.250099",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 461,
+        "fields": {
+            "code": "TSPI",
+            "network": "IA",
+            "name": "Teminabuan",
+            "latitude": "-1.4733",
+            "longitude": "132.0898",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 462,
+        "fields": {
+            "code": "TTPSI",
+            "network": "IA",
+            "name": "Tondong-Talasa",
+            "latitude": "-4.818388",
+            "longitude": "119.761719",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 463,
+        "fields": {
+            "code": "TTSI",
+            "network": "IA",
+            "name": "Tana-Toraja",
+            "latitude": "-3.0451",
+            "longitude": "119.819",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 464,
+        "fields": {
+            "code": "TTSM",
+            "network": "IA",
+            "name": "Tano-Tombangan-Angkola",
+            "latitude": "1.0855",
+            "longitude": "99.4106",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 465,
+        "fields": {
+            "code": "TTSMI",
+            "network": "IA",
+            "name": "TaniwelTimur",
+            "latitude": "-2.864",
+            "longitude": "128.727",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 466,
+        "fields": {
+            "code": "TUJI",
+            "network": "IA",
+            "name": "Tumpakrejo",
+            "latitude": "-8.4018",
+            "longitude": "113.7322",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 467,
+        "fields": {
+            "code": "UGM",
+            "network": "IA",
+            "name": "Wanagama",
+            "latitude": "-7.9125",
+            "longitude": "110.5219",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 468,
+        "fields": {
+            "code": "UKCM",
+            "network": "IA",
+            "name": "Unaaha",
+            "latitude": "-3.5125",
+            "longitude": "122.236",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 469,
+        "fields": {
+            "code": "ULMSI",
+            "network": "IA",
+            "name": "Ulumanda",
+            "latitude": "-3.052255",
+            "longitude": "118.874557",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 470,
+        "fields": {
+            "code": "ULSM",
+            "network": "IA",
+            "name": "Ulu-Musi",
+            "latitude": "-3.7596",
+            "longitude": "102.7985",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 471,
+        "fields": {
+            "code": "UMKSI",
+            "network": "IA",
+            "name": "Ujan Mas",
+            "latitude": "-3.590",
+            "longitude": "102.548",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 472,
+        "fields": {
+            "code": "UMSSI",
+            "network": "IA",
+            "name": "Umalulu",
+            "latitude": "-9.897",
+            "longitude": "120.661",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 473,
+        "fields": {
+            "code": "USFM",
+            "network": "IA",
+            "name": "Utan",
+            "latitude": "-8.412",
+            "longitude": "117.1411",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 474,
+        "fields": {
+            "code": "USTI",
+            "network": "IA",
+            "name": "Umbu-RatuNggay",
+            "latitude": "-9.6543",
+            "longitude": "119.7878",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 475,
+        "fields": {
+            "code": "UTSI",
+            "network": "IA",
+            "name": "Ulu-Belu",
+            "latitude": "-5.31257",
+            "longitude": "104.55095",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 476,
+        "fields": {
+            "code": "UTSM",
+            "network": "IA",
+            "name": "Ulu-Talo",
+            "latitude": "-4.08339",
+            "longitude": "102.72849",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 477,
+        "fields": {
+            "code": "UTUSI",
+            "network": "IA",
+            "name": "Una-Una",
+            "latitude": "-0.427364",
+            "longitude": "121.860561",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 478,
+        "fields": {
+            "code": "UWJI",
+            "network": "IA",
+            "name": "Ujung-Watu",
+            "latitude": "-6.4191",
+            "longitude": "110.9474",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 479,
+        "fields": {
+            "code": "UWNPI",
+            "network": "IA",
+            "name": "Uwapa",
+            "latitude": "-3.479",
+            "longitude": "135.587",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 480,
+        "fields": {
+            "code": "WAMI",
+            "network": "IA",
+            "name": "Wamena",
+            "latitude": "-4.0959",
+            "longitude": "138.95",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 481,
+        "fields": {
+            "code": "WANPI",
+            "network": "IA",
+            "name": "Wanggar",
+            "latitude": "-3.421",
+            "longitude": "135.376",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 482,
+        "fields": {
+            "code": "WBMI",
+            "network": "IA",
+            "name": "Weda-Barat",
+            "latitude": "0.3275",
+            "longitude": "127.854",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 483,
+        "fields": {
+            "code": "WBNI",
+            "network": "IA",
+            "name": "Wera",
+            "latitude": "-8.304",
+            "longitude": "118.913689",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 484,
+        "fields": {
+            "code": "WBSI",
+            "network": "IA",
+            "name": "Waikabubak",
+            "latitude": "-9.6411",
+            "longitude": "119.3911",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 485,
+        "fields": {
+            "code": "WEFM",
+            "network": "IA",
+            "name": "Wewaria",
+            "latitude": "-8.607",
+            "longitude": "121.7179",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 486,
+        "fields": {
+            "code": "WFTFM",
+            "network": "IA",
+            "name": "Wulanggitang",
+            "latitude": "-8.5247",
+            "longitude": "122.7104",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 487,
+        "fields": {
+            "code": "WGJM",
+            "network": "IA",
+            "name": "Wringianom",
+            "latitude": "-7.3833",
+            "longitude": "112.5098",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 488,
+        "fields": {
+            "code": "WHMI",
+            "network": "IA",
+            "name": "Wasile",
+            "latitude": "1.0825",
+            "longitude": "128.132",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 489,
+        "fields": {
+            "code": "WKCM",
+            "network": "IA",
+            "name": "Wolo",
+            "latitude": "-3.493",
+            "longitude": "121.1757",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 490,
+        "fields": {
+            "code": "WLFM",
+            "network": "IA",
+            "name": "Wulandoni",
+            "latitude": "-8.5311",
+            "longitude": "123.45",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 491,
+        "fields": {
+            "code": "WLJI",
+            "network": "IA",
+            "name": "Wonosalam",
+            "latitude": "-6.8310983",
+            "longitude": "105.8909467",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 492,
+        "fields": {
+            "code": "WLTFM",
+            "network": "IA",
+            "name": "Wanasaba",
+            "latitude": "-8.5182",
+            "longitude": "116.5408",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 493,
+        "fields": {
+            "code": "WMCM",
+            "network": "IA",
+            "name": "Wita-Ponda",
+            "latitude": "-2.2162",
+            "longitude": "121.622",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 494,
+        "fields": {
+            "code": "WOJI",
+            "network": "IA",
+            "name": "Wonogiri",
+            "latitude": "-7.8372",
+            "longitude": "110.9236",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 495,
+        "fields": {
+            "code": "WRJI",
+            "network": "IA",
+            "name": "Curahdami",
+            "latitude": "-7.81129",
+            "longitude": "113.74565",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 496,
+        "fields": {
+            "code": "WSHHI",
+            "network": "IA",
+            "name": "MabaSelatan",
+            "latitude": "0.764",
+            "longitude": "127.813",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 497,
+        "fields": {
+            "code": "WSI",
+            "network": "IA",
+            "name": "Stageof-Sumbawa-Timur",
+            "latitude": "-9.669",
+            "longitude": "120.2977",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 498,
+        "fields": {
+            "code": "WSJM",
+            "network": "IA",
+            "name": "Warungkiara",
+            "latitude": "-6.9748",
+            "longitude": "106.7249",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 499,
+        "fields": {
+            "code": "WSTMM",
+            "network": "IA",
+            "name": "Werinama",
+            "latitude": "-3.453",
+            "longitude": "129.995",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 500,
+        "fields": {
+            "code": "WTKSI",
+            "network": "IA",
+            "name": "WawoniiTimurLaut",
+            "latitude": "-4.03",
+            "longitude": "123.22",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 501,
+        "fields": {
+            "code": "WUPCM",
+            "network": "IA",
+            "name": "Wara-Utara",
+            "latitude": "-3.0065",
+            "longitude": "120.193",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 502,
+        "fields": {
+            "code": "WWCI",
+            "network": "IA",
+            "name": "Wangi-wangi",
+            "latitude": "-5.2724",
+            "longitude": "123.5251",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 503,
+        "fields": {
+            "code": "WWPI",
+            "network": "IA",
+            "name": "Waropen-Bawah",
+            "latitude": "-2.313",
+            "longitude": "136.3773",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 504,
+        "fields": {
+            "code": "YBYPI",
+            "network": "IA",
+            "name": "YapenBarat",
+            "latitude": "-1.831",
+            "longitude": "136.063",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 505,
+        "fields": {
+            "code": "YOGI",
+            "network": "IA",
+            "name": "Stageof-Sleman",
+            "latitude": "-7.8166",
+            "longitude": "110.295",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    },
+    {
+        "model": "seismic.station",
+        "pk": 506,
+        "fields": {
+            "code": "KAPI",
+            "network": "II",
+            "name": "Kappang",
+            "latitude": "-5.0142",
+            "longitude": "119.7517",
+            "elevation": null,
+            "created_at": "2025-02-06 11:35:03"
+        }
+    }
+]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waveform Plot</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>Uploaded Waveforms</h1>
+
+    <div id="waveform-container"></div>
+
+    <script>
+        // Load waveform data from Django
+        let waveformData = JSON.parse('{{ waveform_data|escapejs }}');
+
+        waveformData.forEach(waveform => {
+            let trace = {
+                x: waveform.time,
+                y: waveform.amplitude,
+                mode: 'lines',
+                name: waveform.filename
+            };
+
+            let layout = {
+                title: waveform.filename,
+                xaxis: { title: "Time (s)" },
+                yaxis: { title: "Amplitude" }
+            };
+
+            let div = document.createElement("div");
+            div.id = "plot-" + waveform.id;
+            document.getElementById("waveform-container").appendChild(div);
+
+            Plotly.newPlot(div.id, [trace], layout);
+        });
+    </script>
+
+</body>
+</html>

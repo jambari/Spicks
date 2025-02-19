@@ -1,0 +1,400 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Station Registry{% endblock %}
+{% block map_style %}
+{% endblock %}
+{% block content %}
+    <!-- this is row for title -->
+    <div class="row">
+        <div class="col-12"  >
+            <div id="" >
+                <h1 class="text-center" >National Registry of Seismograph Stations <br>
+                    maintained by
+                    BMKG</h1>
+            </div>
+        </div>
+    </div>
+    <!-- this is row for brief station metadata and map-->
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-3"> 
+            <h3>Station Details: {{ station.name }}</h3>
+            <p><strong>Code:</strong> {{ station.code }}</p>
+            <p><strong>Network:</strong> {{ station.network }}</p>
+            <p><strong>Latitude:</strong> {{ station.latitude }}</p>
+            <p><strong>Longitude:</strong> {{ station.longitude }}</p>
+            <p><strong>Elevation:</strong> {{ station.elevation }}</p>
+        </div>
+        <div class="col-8">
+            <div class="card">
+                <!-- <div id="station-map" style="height: 400px;margin-right: 1%; "></div> -->
+                 <img src="{% static 'images/station_locs/' %}{{ station.code }}_map.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="row" style="border-top: 1px solid teal" >
+        <div class="col-12 text-center">
+            <h3 class="" >Arrival Picks Statistic</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <!-- <div id="arrival-chart-distance"></div> -->
+            <div class="card">
+                <!-- <div id="station-map" style="height: 400px;margin-right: 1%; "></div> -->
+                 <img src="{% static 'images/distancebin/' %}{{ station.code }}.distancebin.png" alt="">
+            </div>
+        </div>
+        <div class="col-6">
+            <!-- <div id="arrival-chart-year"></div> -->
+            <div class="card">
+                <!-- <div id="station-map" style="height: 400px;margin-right: 1%; "></div> -->
+                 <img src="{% static 'images/monthlypics/' %}{{ station.code }}.monthlypics.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Travel Time Analysis -->
+     <div class="row">
+        <div class="col-12 text-center">
+            <h3 class="" >Travel Time Analysis</h3>
+        </div>
+     </div>
+    <div class="row" >
+        <!-- median residual chart phase p -->
+        <div class="col-6">
+            <!-- <div id="median-residual-chart-p" style="margin-bottom: -15%;"></div>
+            <div id="observations-chart-p" style="margin-top: -10%;"></div> -->
+            <div class="card">
+                <!-- <div id="station-map" style="height: 400px;margin-right: 1%; "></div> -->
+                 <img src="{% static 'images/P.timehist/' %}{{ station.code }}.P.timehist.png" alt="">
+            </div>
+        </div>
+        <!-- median residual chart phase s -->
+        <div class="col-6" >
+            <!-- <div id="median-residual-chart-s" style="margin-bottom: -15%;"></div>
+            <div id="observations-chart-s" style="margin-top: -10%;"></div> -->
+            <div class="card">
+                <!-- <div id="station-map" style="height: 400px;margin-right: 1%; "></div> -->
+                <img src="{% static 'images/S.timehist/' %}{{ station.code }}.S.timehist.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12" style="padding: 2%;" >
+            <p>
+                On the top graph every dot represents the median residual for one month of data. The green line is the overall median; the orange line shows the standard deviation (smad) based on the median absolute deviation (mad), whilst the red line shows twice the standard deviation (2 * smad). The bottom graph shows the number of residuals for each month. The red columns show the number of residuals whose median (for that month) is outside two standard deviations from the overall median (2 * smad). Red dots indicate a possible clock error.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center" style="padding: 2%; margin-top: -5%;" >
+            <h3>Travel Time Analysis</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <div class="card">
+                <img src="{% static 'images/distresid/' %}{{ station.code }}.distresid.png" alt="">
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="{% static 'images/residualazimuth/' %}{{ station.code }}.residualazimuth.png" alt="">
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="card">
+                <img src="{% static 'images/residmap/' %}{{ station.code }}.residmap.png" alt="" width="" >
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center">
+            <h3 class="" >Amplitude Analysis</h3>
+        </div>
+     </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="card">
+                <img src="{% static 'images/logathist/' %}{{ station.code }}.logathist.png" alt="" width="" >
+            </div>
+        </div>
+        <div class="col-6">
+            <p>On the left graph every dot represents the median value for that month of data. 
+                The green line is the overall median; the orange line shows the standard deviation (smad) based on 
+                the median absolute deviation (mad), whilst the red line (if present) shows twice the standard deviation (2 * smad). 
+                The bottom graph shows the number of observations for each month. Any red columns show those observations whose monthly median 
+                value is greater than twice the standard deviation (2 * smad) from the overall (running) median (shown in the top graph by red dots). 
+                Red dots indicate a possible calibration error.</p>
+        </div>
+    </div>
+    
+{% endblock %}
+
+{% block extra_scripts %}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+
+<script>
+    // Station map
+    document.addEventListener("DOMContentLoaded", function () {
+        // Create a Leaflet map and set its initial view
+        var map = L.map('station-map').setView([{{ station.latitude }}, {{ station.longitude }}], 5);
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Add a marker at the station's location
+        L.marker([{{ station.latitude }}, {{ station.longitude }}])
+            .addTo(map)
+            .bindPopup("<b>{{ station.name }}</b><br>{{ station.network }}")
+            .openPopup();
+    });
+</script>
+
+
+<script>
+    // Distance (X-axis) and Arrival-time (Y-axis) sample data
+    document.addEventListener("DOMContentLoaded", function () {
+        // Distance (X-axis) and Arrival-time (Y-axis) sample data
+        var distances = [0, 20, 40, 60, 80, 100, 120, 140, 180];
+        var arrival_times = [500, 1500, 2500, 3500, 4500, 6000, 7000, 8500, 9500].reverse(); // Example data
+
+        var trace = {
+            x: distances,
+            y: arrival_times,
+            mode: 'markers+lines',
+            type: 'bar',
+            marker: { size: 8, color: '#16C47F' },
+            line: { color: 'blue' }
+        };
+
+        var layout = {
+            title: "Arrival-Time Picks vs. Distance",
+            xaxis: {
+                title: "Distance (degrees)",
+                tickvals: distances
+            },
+            yaxis: {
+                title: "Arrival-Time Picks",
+                range: [0, 10000]
+            }
+        };
+
+        Plotly.newPlot('arrival-chart-distance', [trace], layout);
+    });
+
+</script>
+    
+<script>
+    // Year (X-axis) and Arrival-time (Y-axis) sample data
+    document.addEventListener("DOMContentLoaded", function () {
+        // Distance (X-axis) and Arrival-time (Y-axis) sample data
+        var year = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018];
+        var arrival_times = [500, 1500, 2500, 3500, 4500, 6000, 7000, 8500, 9500].reverse(); // Example data
+
+        var trace = {
+            x: year,
+            y: arrival_times,
+            mode: 'markers+lines',
+            type: 'bar',
+            marker: { size: 8, color: '#F93827' },
+            line: { color: 'blue' }
+        };
+
+        var layout = {
+            title: "Arrival-Time Picks vs. Year",
+            xaxis: {
+                title: "Year",
+                tickvals: year
+            },
+            yaxis: {
+                title: "Arrival-Time Picks",
+                range: [0, 10000]
+            }
+        };
+
+        Plotly.newPlot('arrival-chart-year', [trace], layout);
+    });
+</script>
+
+<!-- median-residual chart phase p-->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Generate years from 2010 to 2020 (monthly data)
+        var months = Array.from({ length: 11 * 12 }, (_, i) => 2010 + Math.floor(i / 12)); 
+        
+        // Generate synthetic median residuals between -4 to 4
+        var residuals = months.map(() => (Math.random() - 0.5) * 8); 
+
+        // Calculate median residual
+        var median_residual = residuals.reduce((a, b) => a + b, 0) / residuals.length;
+        var abs_deviations = residuals.map(r => Math.abs(r - median_residual));
+        var mad = abs_deviations.reduce((a, b) => a + b, 0) / abs_deviations.length;
+        var smad = 1.4826 * mad; // Robust standard deviation estimate
+
+        console.log("Median:", median_residual.toFixed(2), "SMAD:", smad.toFixed(2));
+
+        // Define standard deviation levels
+        var median_line = Array(residuals.length).fill(median_residual);
+        var smad_plus = median_line.map(y => y + smad);
+        var smad_minus = median_line.map(y => y - smad);
+        var smad_2plus = median_line.map(y => y + 2 * smad);
+        var smad_2minus = median_line.map(y => y - 2 * smad);
+
+        // Scatter plot of median residuals
+        var scatter_trace = {
+            x: months, 
+            y: residuals,
+            mode: "markers",
+            marker: { color: "blue", size: 6, opacity: 0.7 }
+        };
+
+        // Standard deviation lines
+        var median_trace = { x: months, y: median_line, mode: "lines", line: { color: "green", width: 2 }, showlegend: false };
+        var smad_plus_trace = { x: months, y: smad_plus, mode: "lines", line: { color: "orange", dash: "dash", width: 2 }, showlegend: false };
+        var smad_minus_trace = { x: months, y: smad_minus, mode: "lines", line: { color: "orange", dash: "dash", width: 2 }, showlegend: false };
+        var smad_2plus_trace = { x: months, y: smad_2plus, mode: "lines", line: { color: "red", dash: "solid", width: 3 }, showlegend: false };
+        var smad_2minus_trace = { x: months, y: smad_2minus, mode: "lines", line: { color: "red", dash: "solid", width: 3 }, showlegend: false };
+
+        // Combine all traces
+        var data = [scatter_trace, median_trace, smad_plus_trace, smad_minus_trace, smad_2plus_trace, smad_2minus_trace];
+
+        var layout = {
+            title: "Stasiun {{ station.code }}, phase P, 8945 observations",
+            height: 500, // 🔴 FIXED HEIGHT for better visibility
+            xaxis: { title: "", tickvals: [], showgrid: false }, // Ignores year labels
+            yaxis: { title: "Median Residual (s)", range: [-7, 7], zeroline: true }, // 🔴 ADJUSTED RANGE TO FIT RED LINES
+            showlegend: false // Removes the legend
+        };
+
+        // Render the chart inside #median-residual-chart
+        Plotly.newPlot('median-residual-chart-p', data, layout);
+    });
+</script>
+<!-- median-residual chart phase s-->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Generate years from 2010 to 2020 (monthly data)
+        var months = Array.from({ length: 11 * 12 }, (_, i) => 2010 + Math.floor(i / 12)); 
+        
+        // Generate synthetic median residuals between -4 to 4
+        var residuals = months.map(() => (Math.random() - 0.5) * 8); 
+
+        // Calculate median residual
+        var median_residual = residuals.reduce((a, b) => a + b, 0) / residuals.length;
+        var abs_deviations = residuals.map(r => Math.abs(r - median_residual));
+        var mad = abs_deviations.reduce((a, b) => a + b, 0) / abs_deviations.length;
+        var smad = 1.4826 * mad; // Robust standard deviation estimate
+
+        console.log("Median:", median_residual.toFixed(2), "SMAD:", smad.toFixed(2));
+
+        // Define standard deviation levels
+        var median_line = Array(residuals.length).fill(median_residual);
+        var smad_plus = median_line.map(y => y + smad);
+        var smad_minus = median_line.map(y => y - smad);
+        var smad_2plus = median_line.map(y => y + 2 * smad);
+        var smad_2minus = median_line.map(y => y - 2 * smad);
+
+        // Scatter plot of median residuals
+        var scatter_trace = {
+            x: months, 
+            y: residuals,
+            mode: "markers",
+            marker: { color: "blue", size: 6, opacity: 0.7 }
+        };
+
+        // Standard deviation lines
+        var median_trace = { x: months, y: median_line, mode: "lines", line: { color: "green", width: 2 }, showlegend: false };
+        var smad_plus_trace = { x: months, y: smad_plus, mode: "lines", line: { color: "orange", dash: "dash", width: 2 }, showlegend: false };
+        var smad_minus_trace = { x: months, y: smad_minus, mode: "lines", line: { color: "orange", dash: "dash", width: 2 }, showlegend: false };
+        var smad_2plus_trace = { x: months, y: smad_2plus, mode: "lines", line: { color: "red", dash: "solid", width: 3 }, showlegend: false };
+        var smad_2minus_trace = { x: months, y: smad_2minus, mode: "lines", line: { color: "red", dash: "solid", width: 3 }, showlegend: false };
+
+        // Combine all traces
+        var data = [scatter_trace, median_trace, smad_plus_trace, smad_minus_trace, smad_2plus_trace, smad_2minus_trace];
+
+        var layout = {
+            title: "Stasiun {{ station.code }}, phase S, 226 observations",
+            height: 500, // 🔴 FIXED HEIGHT for better visibility
+            xaxis: { title: "", tickvals: [], showgrid: false }, // Ignores year labels
+            yaxis: { title: "Median Residual (s)", range: [-8, 8], zeroline: true }, // 🔴 ADJUSTED RANGE TO FIT RED LINES
+            showlegend: false // Removes the legend
+        };
+
+        // Render the chart inside #median-residual-chart
+        Plotly.newPlot('median-residual-chart-s', data, layout);
+    });
+</script>
+
+<!-- observations chart phase p-->
+<script>
+    // Distance (X-axis) and Arrival-time (Y-axis) sample data
+    document.addEventListener("DOMContentLoaded", function () {
+        // Distance (X-axis) and Arrival-time (Y-axis) sample data
+        var year = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018];
+        var arrival_times = [250, 100, 250, 100, 800, 4500,3500, 4500, 6000,].reverse(); // Example data
+
+        var trace = {
+            x: year,
+            y: arrival_times,
+            mode: 'markers+lines',
+            type: 'bar',
+            marker: { size: 8, color: '#16C47F' },
+            line: { color: 'blue' }
+        };
+
+        var layout = {
+            title: false,
+            xaxis: {
+                title: "Year",
+                tickvals: year
+            },
+            yaxis: {
+                title: "Observations",
+                range: [0, 10000]
+            }
+        };
+
+        Plotly.newPlot('observations-chart-p', [trace], layout);
+    });
+
+</script>
+<!-- observations chart phase s-->
+<script>
+    // Distance (X-axis) and Arrival-time (Y-axis) sample data
+    document.addEventListener("DOMContentLoaded", function () {
+        // Distance (X-axis) and Arrival-time (Y-axis) sample data
+        var year = [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018];
+        var arrival_times = [250, 100, 250, 100, 800, 500,700, 450, 550,].reverse(); // Example data
+
+        var trace = {
+            x: year,
+            y: arrival_times,
+            mode: 'markers+lines',
+            type: 'bar',
+            marker: { size: 8, color: '#F93827' },
+            line: { color: 'blue' }
+        };
+
+        var layout = {
+            title: false,
+            xaxis: {
+                title: "year",
+                tickvals: year
+            },
+            yaxis: {
+                title: "Observations",
+                range: [0, 1500]
+            }
+        };
+
+        Plotly.newPlot('observations-chart-s', [trace], layout);
+    });
+
+</script>
+{% endblock %}

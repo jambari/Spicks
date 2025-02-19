@@ -1,0 +1,14 @@
+<div class="row is-vertical-align is-horizontal-align is-full-screen">
+    <div class="col-4">
+        <div class="card">
+            <h1 class="text-center" >Upload Your Waveforms</h1>
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <label>Select multiple waveform files:</label><br>
+                <input type="file" name="files" multiple required><br>
+                <button  class="" type="submit">Upload</button>
+            </form>
+        </div>
+    </div>
+</div>
+      
