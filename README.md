@@ -74,10 +74,11 @@ python manage.py createsuperuser
 ```
 
 Load Initial Data (Optional):
-If you have fixtures or initial data to load, use the following command:
+Run fixtures for the initial data to load, use the following command:
+We will import stations data from IA Network **BMKG**
 
 ```bash
-python manage.py loaddata your_fixture.json
+python manage.py loaddata slmon.all.laststatus.json
 ```
 
 ## Step 5: Run the Development Server
@@ -95,12 +96,7 @@ Visit [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser to view t
 The project is already set up to use PyGMT and ObsPy. You can import these libraries in your Django views, models, or scripts:
 
 
-## step 7: import stations data
-
-run file inject_station.py for inserting station data from IA Network, these stations correspond to slmon bmkg
-
-
-## Step 8: Directory Structure
+## Step 7: Directory Structure
 
 Here’s an overview of the project structure:
 
@@ -135,7 +131,7 @@ focal_mechanism/
 └── README.md                    # Project documentation
 ```
 
-## Step 9: Deploying the Project
+## Step 8: Deploying the Project
 
 For deployment, follow the official Django deployment guide: [Django Deployment Checklist](https://docs.djangoproject.com/en/stable/howto/deployment/checklist/).
 
@@ -181,4 +177,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-For any questions or issues, please contact **[Muhammad Akhadi]** at **[muhammad.akhadi@bmkg.go.id]**, **[jambari]** at **[jambari@bmkg.go.id]**
+For any questions or issues, please contact **Muhammad Akhadi** at **muhammad.akhadi@bmkg.go.id**, **jambari** at **jambari@bmkg.go.id**
