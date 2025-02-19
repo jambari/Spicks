@@ -1,0 +1,15 @@
+# Ignore Python virtual environment
+env/
+.venv/
+django_pygmt/
+
+# Ignore Django secret key and database
+.env
+*.sqlite3
+
+# Ignore PyCharm/VS Code settings
+.idea/
+.vscode/
+
+# Ignore static files collected during deployment
+staticfiles/
