@@ -1,5 +1,8 @@
 # Spicks
 
+![Spicks Visualization](static/images/spicks_logo.png)
+
+
 Spicks, an abbreviation for Station Picks is an action plan project for Global Seismology Observation Course (Seminar Course Participant) developed by Akhadi-san and Jambari-san.
 
 Spicks is a Django application designed for seismic data processing and visualization. It integrates PyGMT and ObsPy to analyze seismic events, station data, and phase picks, and generates visualizations such as station maps, residual plots, and histograms.
@@ -73,7 +76,7 @@ If you need access to the Django admin panel, create a superuser:
 python manage.py createsuperuser
 ```
 
-Load Initial Data (Optional):
+Load Initial Data:
 Run fixtures for the initial data to load, use the following command:
 We will import stations data from IA Network **BMKG**
 
